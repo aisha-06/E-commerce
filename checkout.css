@@ -1,0 +1,46 @@
+.body{
+    font-family: "Libre Baskerville", serif;
+}
+
+.element.style{
+    background-image: url(
+        checkout.img/breadcrumb-bg.jpg.webp
+    );
+
+}
+.breadcrumb-option{
+    padding: 52px 0 60px;
+}
+
+.set-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.checkout__form__top h4 {
+    font-size: 20px;
+    color: black;
+}
+
+h2{
+    font-family: "Cormorant Garamond", serif;;
+    font-weight: 600;
+    font-size: 52px;
+}
+
+h4{
+    font-family: "Libre Baskerville", serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 61px;
+    margin-right: 999px;
+}
+
+h6{
+    font-size: 17px;
+    font-family: "Libre Baskerville", serif;
+    font-weight:500;
+    margin-left: 620px;
+    margin-top: -34px;
+}
+
