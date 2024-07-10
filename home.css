@@ -1,0 +1,38 @@
+body
+{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.dropdown
+{
+    list-style-type: none;
+}
+.header-ul-middle
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  gap: 60px;
+  list-style: none;
+  
+  
+}
+
+
+.navbar
+{
+    /* margin-top: 20px; */
+    /* padding: 26px 0 30px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 60px;
+    list-style: none;
+    /* display: flex; */
+}
+.header-mmiddle
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 60px;
+    margin-top: 20px;
+}
