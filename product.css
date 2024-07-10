@@ -14,7 +14,7 @@ body{
     background-size: cover;
     width: 100%;
     max-width: 100%;
-    height: 637px;
+    height: 590px;
 }
 h1{
     position: absolute;
@@ -44,4 +44,41 @@ h2 button{
     border: transparent;
     text-decoration: underline;
     cursor: pointer;
+}
+#navbar2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 50px;
+}
+#nav-link-text{
+    position: absolute;
+    margin-top: 16px !important;
+    margin-left: 40px;
+}
+.fa-bars{
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    padding: 26px;
+    font-size: 50px;
+}
+.dropdown-toggle{
+    position: absolute !important;
+    margin-left: 3301px !important;
+    margin-top: 12px !important;
+    border: 1px solid #88888881 !important;
+    color: #888888b6 !important;
+    padding: 15px 156px !important;
+    text-align: left !important;
+}
+.dropdown-toggle::after{
+    margin-left: -0.745em !important;
+    visibility: hidden !important;
+}
+.dropdown-menu{
+    font-size: 45px !important;
+    margin-left: 3299px !important;
+    margin-top: -4px !important;
+    width: 702px !important;
+}
+.fa-angle-down{
+    margin-left: 199px;
 }
