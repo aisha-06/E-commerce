@@ -1,0 +1,47 @@
+.logo-image{
+    width: 100%; 
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.images {
+    background-image:url("cart-images/breadcrumb-bg\ \(1\).jpg");
+    background-size:cover;
+    width: 100%;
+    position: absolute;
+    top:100px;
+} 
+.breadcrumb-text h2 {
+    font-size: 50px;
+    color: #111111;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 50%;
+    font-weight: 400;
+    font-family: "Quicksand", sans-serif;
+}
+.breadcrumb-links a {
+    font-size: 16px;
+    color: #f45d96;
+    text-transform: uppercase;
+    display: inline-block;
+  position: absolute;
+margin-top: 9%;
+margin-left: 51%;
+padding: 11px 22px ;
+font-family: "Quicksand", sans-serif;
+    
+}
+.breadcrumb-links span {
+    font-size: 16px;
+    color: #111111;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    margin-top: 9.6%;
+    margin-left: 55%;
+    font-family:  "Quicksand", sans-serif;
+    
+}
