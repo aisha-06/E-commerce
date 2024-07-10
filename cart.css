@@ -12,15 +12,17 @@
     top:100px;
 } 
 .breadcrumb-text h2 {
-    font-size: 50px;
+    font-size: 70px;
     color: #111111;
     font-weight: 400;
     font-family: "Libre Baskerville", serif;
     position: absolute;
-    margin-top: 6%;
-    margin-left: 50%;
+    margin-top: 8%;
+    margin-left:48%;
     font-weight: 400;
-    font-family: "Quicksand", sans-serif;
+    text-transform: capitalize;
+    font-family: "Libre Baskerville", serif;
+  
 }
 .breadcrumb-links a {
     font-size: 16px;
@@ -28,20 +30,173 @@
     text-transform: uppercase;
     display: inline-block;
   position: absolute;
-margin-top: 9%;
+margin-top: 12%;
 margin-left: 51%;
 padding: 11px 22px ;
 font-family: "Quicksand", sans-serif;
     
 }
-.breadcrumb-links span {
-    font-size: 16px;
-    color: #111111;
-    text-transform: uppercase;
-    display: inline-block;
+.table{
+    margin-top: 17%;
+    width: 20px;
+}
+.table{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    word-spacing: 80px;
+    font-family: "Libre Baskerville", serif;
     position: absolute;
-    margin-top: 9.6%;
-    margin-left: 55%;
-    font-family:  "Quicksand", sans-serif;
-    
+    margin-top: 180px;
+
+}
+.table h4{
+    font-size: 34px;
+    /* font-family: "Libre Baskerville", serif; */
+  font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+.cart-item1{
+    margin-left:40px;
+    margin-top: 24%;
+    position: absolute;
+    max-width: 100%;
+  
+}
+.cart-item1-text{
+position: absolute;
+margin-top: 24%;
+margin-left: 170px;
+font-size: 24px;
+ font-family: "Libre Baskerville", serif;
+}
+.remove-item{
+    width: 20px;
+    cursor: pointer;
+   margin-top:500px;
+   margin-left: 593px; 
+    position: absolute;
+
+}
+.add-item{
+    width: 20px;
+    cursor: pointer;
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 800px;
+}
+.item-quantity{
+position: absolute;
+margin-left: 700px;
+margin-top: 500px;
+}
+.cart-item2{
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 30px;
+}
+.item2-p{
+    font-size: 24px;
+    font-family: " Libre Baskerville", serif;
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 170px;
+    line-height: -10px ;
+}
+.remove-item2{
+    width: 20px;
+    margin-top: 650px;
+    margin-left: 593px;
+    cursor: pointer;
+    position: absolute;
+}
+.add-item2{
+    width: 20px;
+    margin-top: 650px;
+    margin-left: 800px;
+
+}
+.total-amount2 i{
+    font-size: 24px;
+    color: #f45d96;
+    margin-left: 1200px;
+    margin-top: -25px;
+    position: absolute;
+
+}
+.total-amount i {
+    font-size: 24px;
+    color: #f45d96;
+    position: absolute;
+    margin-top: 503px;
+    margin-left: 1200px;
+}
+.cart-item3-img{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.cart-item3-text p{
+    font-family: " Libre Baskerville",serif;
+    position: absolute;
+    margin-top: 110px;
+    font-size: 24px;
+     margin-left: 170px;
+}
+.remove-item3{
+    width: 20px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 593px;
+}
+.add-item3{
+    width: 20px;
+    margin-top: 130px;
+    margin-left:800px ;
+}
+.total-amount3 i{
+
+    font-size: 24px;
+    color: #f45d96;
+    margin-left: 1200px;
+    margin-top: -35px;
+    position: absolute;
+
+}
+.cart-item4-img{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+.cart-item4-text{
+    position: absolute;
+    margin-top: 120px;
+    font-size: 24px;
+    font-family: "Libre Baskerville",serif ;
+    margin-left: 170px;
+}
+.remove-item4{
+    width: 20px;
+    margin-top: 130px;
+    margin-left: 593px;
+    position: absolute;
+}
+.add-item4{
+    position: absolute;
+    width: 20px;
+    margin-top: 130px;
+    margin-left: 800px;
+}
+.total-amount4 h4{
+position: absolute;
+margin-top: 130px;
+margin-left:1040px;
+
+}
+.total-amount4 i{
+    font-size: 24px;
+    color: #f45d96;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 61.5%;
 }
