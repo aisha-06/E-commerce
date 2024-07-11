@@ -461,5 +461,92 @@ margin-left:1040px;
     font-size: 16px;
     margin-top: 249px;
     margin-left: 1120px;
+ }
+ .image1{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 200px;
+ }
+ .button1{
+    position: absolute;
+    margin-top: 341px;
+    margin-left: -349px;
+    width: 325px;
+    height: 130px;
+    background-color: white;
+    border:none ;
+    padding: 20px 75px 16px;
+    opacity: 0;
+ }
+ .button1 i{
+    color: #f45d96;
+    font-size: 35px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -10px;
+    
+ }
+ .button1:hover{
+    opacity: 1;
+    transition:all,0.5s;
+ }
+ .button1 p{
+    font-family:"Quicksand", sans-serif;
+    font-weight: 500;
+    margin-top: 26px;
+    font-size: 20px;
+ }
+
+
+
+ .image2{
+    /* position:absolute; */
+    margin-top: 201px;
+    margin-left: 5px;
 
  }
+ .button2{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: -349px;
+    width: 325px;
+    height: 130px;
+    background-color: white;
+    border:none ;
+    padding: 20px 75px 16px;
+    opacity: 0;
+ }
+ .button2 i{
+    color: #f45d96;
+    font-size: 35px;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: -10px;
+    
+ } 
+  .button2:hover{
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+ }
+ .button2 p{
+    font-family:"Quicksand", sans-serif;
+    font-weight: 500;
+    margin-top: 26px;
+    font-size: 20px;
+ }
+ .flower-images{
+    display:flex;
+    justify-content: space-around;
+    gap: 10px;
+    overflow: hidden;
+ }
+ .image3{
+    margin-top: 200px;
+ }
+ .image4{
+    margin-top: 200px;
+ }
+ .image5{
+    margin-top: 200px;
+ }
+
