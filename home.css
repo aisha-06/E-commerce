@@ -1,13 +1,11 @@
 body
 {
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    font-weight: 200;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    overflow-x: hidden;
 }
-.dropdown
-{
-    list-style-type: none;
-}
+
 
 
 .navbar
@@ -17,10 +15,9 @@ body
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
     gap: 60px;
     list-style: none;
-    /* display: flex; */
+  
     
 }
-
 
 .header-right-choices
 {
@@ -32,22 +29,96 @@ body
     visibility: hidden ;
     cursor:pointer;
     background-color: black;
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    color: white;
-    
-    
+    width: 60px;
+    height: 60px; 
+}
+.header-menu
+{
+ border: none;
+ background-color: white;
+
+}
+.header-menu:hover
+{
+    color: #f45d96;
+}
+.logo-img
+{
+    width: 140px;
 }
 
-.dropdown-item
+.drop-btn-item 
 {
-  /* display: none; */
+  
   color: white;
   text-decoration: none;
+  font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
 }
 .dropdown-ul:hover .dropdown-btn
 {
   visibility: visible ;
   cursor: pointer;
 }
+.bg-img
+{
+    width: 1600px;
+    height: 550px;
+    
+}
+.bg-img-text
+{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  
+
+}
+.bg-img-para
+{
+    color: black;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 46px;
+    
+}
+.btn-bg-img
+{
+    border-radius: 50%;
+    width: 100px;
+}
+.carousel-caption
+{
+    top: 10vh;
+    margin-right: 550px;
+    margin-top: 60px;
+}
+.btn-shop-bg-img
+{
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    background-color: #f45d96;
+    border-color: #f45d96;
+    margin-right: 450px;
+}
+.owl-dot
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-right: 5px;
+    background-color: white;
+    border-color: #f45d96;
+    /* transition:3s all ease;
+    user-select: none;
+    cursor: pointer; */
+}
+
