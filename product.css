@@ -1,12 +1,67 @@
 body{
     background-color: white;
 }
-.navbar{
+#navbar1{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     color: black;
     font-family: "Oswald", sans-serif;
+    height: 282px;
+}
+.navbar-left {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 919px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 130px;
+    margin-right: 1181px;
+    text-transform: capitalize;
+}
+.nav-button button{
+    border: none;
+    background-color: transparent;
+    font-size: 45px;
+}
+.nav-button button:hover{
+    color: #f45d96;
+}
+.navbar-right-icons{
+    display: flex;
+    gap: 80px;
+}
+.header-img{
+    height: 70px;
+}
+.navbar-right li {
+    display: flex;
+    align-items: center;
+}
+.navbar-left img{
+    height: 114px;
+}
+.icon{
+    font-size: 82px;
+    margin-top: 15px;
+}
+.icon-button button:hover{
+    color: black;
+}
+#likes{
+    position: absolute;
+    font-size: 49px;
+    margin-top: 16px;
+    margin-left: 20px;
+    cursor: text;
+}
+#likes:hover{
+    color: black;
 }
 .header-background{
     background-image: url('product-img/breadcrumb-bg.png');
@@ -32,8 +87,8 @@ h2{
     font-style: normal;
     font-size: 49px !important;
     margin-top: 299px !important;
-    margin-left: 2846px;
-    letter-spacing: 4px;
+    margin-left:  2915px;
+    letter-spacing: 5px;
 }
 h2 button{
     color: palevioletred;
