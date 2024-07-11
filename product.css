@@ -14,54 +14,65 @@ body{
     display: flex;
     list-style-type: none;
     align-items: center;
-    margin-left: 919px;
+    margin-left: 950px;
+}
+.navbar-left img{
+    height: 118px;
 }
 .navbar-right {
     display: flex;
     align-items: center;
     list-style-type: none;
     gap: 130px;
-    margin-right: 1181px;
+    margin-right: 1301px;
     text-transform: capitalize;
 }
 .nav-button button{
     border: none;
     background-color: transparent;
-    font-size: 45px;
+    font-size: 49px;
 }
 .nav-button button:hover{
     color: #f45d96;
 }
-.navbar-right-icons{
+.icon-button{
     display: flex;
-    gap: 80px;
 }
-.header-img{
-    height: 70px;
+.icon-button button{
+    gap: 90px;
+    border: none;
+    background-color: transparent;
 }
-.navbar-right li {
-    display: flex;
-    align-items: center;
-}
-.navbar-left img{
-    height: 114px;
+.bag-image{
+    height: 80px;
+    margin-left: 30px;
 }
 .icon{
     font-size: 82px;
-    margin-top: 15px;
+    margin-top: 4px;
 }
 .icon-button button:hover{
     color: black;
 }
 #likes{
     position: absolute;
-    font-size: 49px;
-    margin-top: 16px;
-    margin-left: 20px;
+    font-size: 40px;
+    margin-top: 17px;
+    margin-left: 30px;
     cursor: text;
+    opacity: 0.7;
 }
-#likes:hover{
-    color: black;
+#bag-text{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 130px;
+    cursor: text;
+    opacity: 0.7;
+}
+#cart-cost{
+    color: #ff0062;
+    font-weight: 799;
 }
 .header-background{
     background-image: url('product-img/breadcrumb-bg.png');
