@@ -106,7 +106,7 @@ body
     color: white;
     background-color: #f45d96;
     border-color: #f45d96;
-    /* margin-right: 450px; */
+   
     
 }
 .owl-dot
@@ -276,5 +276,149 @@ body
 }
 .play-icon
 {
-   /* top: 1000px; */
+    margin-left: 55vh;
+    
 }
+.about-video-next-text span
+{
+    font-family: "Quicksand", sans-serif;
+    color: #f45d96;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+}
+.about-video-next-text h2
+{
+    font-family: "Libre Baskerville", serif;
+    color: #111111;
+    font-size: 38px;
+    line-height: 1.4;
+    margin-bottom: 26px;
+}
+.about-title-next-para p
+{
+    font-family: "Quicksand", sans-serif;
+    color: #444444;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.about-video-next-text
+{
+    background: #ffffff;
+    box-shadow: 0px 10px 21px rgba(99, 134, 137, 0.16);
+    padding: 100px 90px 105px 70px;
+    margin-left: -95px;
+    margin-top: -70px;
+    margin-bottom: 30px;
+}
+.conatct-btn
+{
+    font-weight: bold;
+    width: 180px;
+}
+.sales-flower-title span
+{
+    font-family: "Quicksand", sans-serif;
+    color: #f45d96;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 8px;
+}
+.sales-flower-title h2
+{
+    font-family: "Libre Baskerville", serif;
+    color: #111111;
+    font-size: 42px;
+    line-height: 1.4;
+    margin-bottom: 26px;
+}
+ul
+{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+}
+/* .sales-flower-title li.active {
+    border: 2px solid #f45d96;
+}
+.sales-flower-title li {
+    font-size: 16px;
+    color: #111111;
+    display: inline-block;
+    list-style: none;
+    padding: 3px 10px 2px;
+    margin-right: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+} */
+ .product-filter
+ {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+ }
+ .product-item-pic1
+ {
+    background-image: url("home-img/product-1.jpg.webp");
+    
+ }
+ .product-item-pic2
+ {
+    background-image: url("home-img/product-2.jpg.webp");
+ }
+ .product-item-pic3
+ {
+    background-image: url("home-img/product-3.jpg.webp");
+ }
+ .product-item-pic4
+ {
+    background-image: url("home-img/product-4.jpg.webp");
+ }
+ .product-item-pic5
+ {
+    background-image: url("home-img/product-5.jpg.webp");
+ }
+ .product-item-pic6
+ {
+    background-image: url("home-img/product-6.jpg.webp");
+ }
+ .product-item-pic7
+ {
+    background-image: url("home-img/product-7.jpg.webp");
+ }
+ .product-item-pic8
+ {
+    background-image: url("home-img/product-8.jpg.webp");
+ }
+ .product-item-pic9
+ {
+    background-image: url("home-img/product-9.jpg.webp");
+ }
+ .product-item-pic10
+ {
+    background-image: url("home-img/product-10.jpg.webp");
+ }
+ .product-item-pic1,.product-item-pic2 ,.product-item-pic3,.product-item-pic4,.product-item-pic5,
+ .product-item-pic6,.product-item-pic7,.product-item-pic8,.product-item-pic9,.product-item-pic10
+ {
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    height: 344px;
+    background-repeat: no-repeat;
+ }
+ .product-item-text a
+ {
+    text-decoration: none;
+    font-family: "Libre Baskerville", serif;
+    color: #111111;
+    font-size: 16px;
+    line-height: 1.4;
+ }
