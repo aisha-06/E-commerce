@@ -501,7 +501,7 @@ margin-left:1040px;
 
 
  .image2{
-    /* position:absolute; */
+    position:relative;
     margin-top: 201px;
     margin-left: 5px;
 
