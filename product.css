@@ -24,7 +24,7 @@ body{
     align-items: center;
     list-style-type: none;
     gap: 130px;
-    margin-right: 1301px;
+    margin-right: 1251px;
     text-transform: capitalize;
 }
 .nav-button button{
@@ -98,7 +98,7 @@ h2{
     font-style: normal;
     font-size: 49px !important;
     margin-top: 299px !important;
-    margin-left:  2915px;
+    margin-left:  2839px;
     letter-spacing: 5px;
 }
 h2 button{
@@ -154,15 +154,14 @@ h2 button{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto;
-    gap: 30px;
-    color: #E5BF4A;
+    gap: 90px;
     margin-top: 30px;
     margin-left: 100px;
     justify-content: center;
 }
 .product-info img {
-    height: 1000px;
-    width: 800px;
+    height: 1070px;
+    width: 790px;
     display: block;
 }
 .image-container {
@@ -171,22 +170,38 @@ h2 button{
     justify-content: center;
 }
 .hidden-btn {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
     position: absolute;
     visibility: hidden;
-    text-align: center;
-    margin-top: -132px;
+    margin-top: -216px;
+    margin-left: 175px;
+    gap: 40px;
 }
 .hidden-btn button {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
     color: black;
     font-family: "Jost", sans-serif;
-    font-size: 47px;
     white-space: nowrap;
-    background-color: #E5BF4A;
-    border: 1px solid #E5BF4A;
-    padding: 27px 435px;
-    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 30px;
 }
-  
+.hidden-btn button:hover{
+    background-color: #f45d96;
+    color: white;
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.hover-btn{
+    font-size: 60px;
+}
 .image-container:hover .hidden-btn {
     visibility: visible;
 }
@@ -195,9 +210,11 @@ h2 button{
     font-family: "Libre Baskerville", serif;
     font-size: 70px;
     margin-top: 60px;
+    text-align: center;
 }
 #text2{
     color: black;
     font-family: "Libre Baskerville", serif;
     font-size: 55px;
+    text-align: center;
 }
