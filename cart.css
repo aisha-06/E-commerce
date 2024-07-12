@@ -35,7 +35,7 @@
   .header-menu1 {
   text-decoration: none;
   font-family: "Oswald", sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 200;
   color:#111111;
    margin-top: -15px;
@@ -51,8 +51,8 @@
 
   .header-menu2 {
   text-decoration: none;
-  font-family: "Oswald", sans-serif;
-  font-size: 26px;
+  font-family:"oswald",sans-serif;
+  font-size: 24px;
   font-weight: 200;
   color:#111111;
    margin-top: -15px;
@@ -67,7 +67,7 @@
   .header-menu3 {
    text-decoration: none;
    font-family: "Oswald", sans-serif;
-   font-size: 26px;
+   font-size: 24px;
    font-weight: 200;
    color:#111111;
    position: absolute;
@@ -81,7 +81,7 @@
   .header-menu4 {
     text-decoration: none;
     font-family: "Oswald", sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 200;
     color:#111111;
     position: absolute;
@@ -95,7 +95,7 @@
   .header-menu{
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 200;
     color:#111111;
     position: absolute;
@@ -114,7 +114,7 @@
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 200;
   color:#111111;
   position: absolute;
@@ -127,8 +127,8 @@
   
   .header-menu6 {
   text-decoration: none;
-  font-family: "Oswald", sans-serif;
-  font-size: 26px;
+  font-family: "oswald",sans-serif;
+  font-size: 24px;
   font-weight: 200;
   color:#111111;
   position: absolute;
@@ -187,17 +187,6 @@
     font-weight: 100;
   }
   
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -550,4 +539,128 @@ margin-left:1040px;
  .image5{
     margin-top: 200px;
  }
+.cart-coupon{
+    background-color: #f7f5fa;
+    padding: 30px;
+    margin-bottom:50px ;
+    position: absolute;
+    margin-left: 1319px;
+    margin-top: -1280px;
+    width: 530px;
+    height: 180px;
+}
+.cart-coupon p{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-family: "Quicksand",sans-serif;
+    color: #444444;
+    line-height: 27px;
+    font-weight: 400;
+}
+.cart-coupon form input{
+    height: 46px;
+    width: 75%;
+    margin: 10px;
+    border: 1px solid #e1e1e1;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.cart-coupon form button{
+    color: #ffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #111111;
+    border: none;
+    position: absolute;
+    height: 43px;
+    padding: 0px 30px;
+    margin-top: 10px;
+    margin-left: -11px;
+    font-family: inherit;
 
+}
+.cart-total{
+    background-color: #f7f5fa;
+    padding: 30px;   
+    line-height: 1.5;
+    width: 530px;
+    height: 300px;
+    position: absolute;
+    margin-left: 1319px;
+    margin-top: -1000px;
+
+}
+.cart-total h4{
+    color: #111111;
+    margin-bottom: 36px;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: capitalize;
+      font-family: "Libre Baskerville",serif;
+      text-align: left;
+      margin-left: 10px;
+}
+.cart-total ul li{
+    list-style-type: none;
+    font-size: 20px;
+    color: #888888;
+    line-height: 36px;
+    overflow:hidden;
+    text-align: left;
+    margin-left: -10px;
+    font-family: "Quicksand",sans-serif;
+}
+.cart-total ul li span {
+    font-weight: 700;
+    color: #111111;
+    float: right;
+}
+.cart-total ul :last-child span{
+    color:#f45d96;
+}
+.cart-total a{
+    display: block;
+     text-decoration: none;
+     color: #ffff;
+    background-color: #111111;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 14px 20px 12px ;
+    text-align: center;
+}
+/* .florist{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 106px ;
+    width: 200px;
+} */
+.footer-part1{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 60px;
+}
+.florist-para{
+    font-size: 20px;
+    font-family: "Quicksand",sans-serif;
+}
+.social-media-logo{
+    display: flex;
+    gap:20px;
+    overflow: hidden;
+}
+.grid-container{
+    display: grid;
+   grid-template-columns: auto auto auto auto;
+   justify-content: space-around;
+   position: relative;
+   margin-top: 40px;
+   padding:32px 35px  ;
+   border-top: 1px solid #eaeaea;
+   border-bottom: 1px solid #eaeaea;
+}
+.grid-item ul {
+    list-style-type: none;
+}
