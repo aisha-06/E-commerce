@@ -1,6 +1,64 @@
 .body{
     font-family: "Libre Baskerville", serif;
 }
+.navbar
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 17px;
+    list-style: none;
+    margin-top: -34PX ;
+    margin-left: 316px;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: black;
+}
+
+.header-right-choices
+{
+    display: flex;
+    
+}
+.dropdown-btn
+{
+    visibility: hidden ;
+    cursor:pointer;
+    background-color: black;
+    width: 60px;
+    height: 60px; 
+}
+.header-menu
+{
+ border: none;
+ background-color: white;
+
+}
+.header-menu:hover
+{
+    color: palevioletred;
+}
+.logo-img
+{
+    width: 140px;
+}
+
+.drop-btn-item 
+{
+  
+  color: white;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.dropdown-ul:hover .dropdown-btn
+{
+  visibility: visible ;
+  cursor: pointer;
+}
 
 .element.style{
     background-image: url(
@@ -16,6 +74,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    margin-top: -35px;
 }
 .checkout__form__top h4 {
     font-size: 20px;
@@ -44,3 +103,6 @@ h6{
     margin-top: -34px;
 }
 
+a{
+    color: #f68b99;
+}
