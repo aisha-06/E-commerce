@@ -422,3 +422,331 @@ ul
     font-size: 16px;
     line-height: 1.4;
  }
+ .view-product-text a
+ {
+    
+    font-size: 18px;
+    color: #111111;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-bottom: 2px;
+   text-decoration: underline;
+   text-decoration-color:#111111 ;
+ }
+ .bg-img2
+ {
+   background-image: url("home-img/call-bg.jpg.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 1560px;
+   height: 500px;
+ }
+ .bg-img2-text span
+ {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 4px;
+   
+    /* margin-bottom: 20px; */
+ }
+.bg-img2-text h2
+{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 1.4;
+    margin-bottom: 42px;
+    font-family:"Pacifico";
+}
+.primary-btn
+{
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #f45d96;
+    color: #ffffff;
+    border-color:#f45d96;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+
+
+}
+.white-btn
+{
+    background-color: #ffffff;
+    color: #111111;
+    border-color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;   
+}
+.florist-title span
+{
+    color: #f45d96;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+}
+.florist-title h2
+{
+    font-size: 42px;
+    color: #111111;
+    line-height: 1.4;
+    font-family: "Libre Baskerville", serif;
+
+}
+.view-btn-div .white-btn
+{
+    width: 170px;
+    height: 60px;
+    border-color: #f45d96;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    margin-left: 350px;
+
+
+}
+.blog-item
+{
+    box-shadow: 0px 10px 21px rgba(99, 133, 136, 0.16);
+    margin-bottom: 50px;
+}
+.blog-item-text
+{
+    text-align: center;
+    position: relative;
+    padding: 38px 35px 30px;
+}
+.blog-item-text .label
+{
+    position: absolute;
+    left: 0;
+    top: -13px;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.blog-img
+{
+    min-width: 100%;
+    height: 100%;
+}
+.blog-item-text .label span {
+    color: #ffffff;
+    background: #111111;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 10px 2px;
+
+    transition: all, 0.3;
+}
+.blog-item-text h4 a
+{
+    color: #111111;
+    line-height: 31px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.blog-item-text:hover .label span
+{
+  background-color: #f45d96;
+}
+.blog-item-text:hover a
+{
+    text-decoration: underline;
+    text-decoration-color:#111111 ;
+}
+.img-carousel
+{
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    /* gap: 400px; */
+    /* margin-top: 20vh; */
+    /* justify-content: space-between; */
+     
+}
+.carousel-img
+{
+    width: 250px;
+    height: 500px;
+}
+
+.img-carousel
+{
+    background-image: url("home-img/qoute-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1363px;
+    height:502px;
+}
+.row-florist
+{
+    background-color: #f7f5fa;
+
+}
+
+.img-qoute-text p
+{
+    font-size: 23px;
+    font-style: italic;
+    line-height: 1.8;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 38px;
+    margin-bottom: 30px
+}
+.img-qoute-text h4
+{
+    font-family: "Libre Baskerville", serif;
+
+}
+.img-qoute-text
+{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+.row-photo
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.photo-clicked
+{
+  background-image: url("home-img/insta-1.jpg.webp");
+}
+.photo-clicked2
+{
+    background-image: url("home-img/insta-2.jpg.webp");
+}
+.photo-clicked3
+{
+    background-image: url("home-img/insta-3.jpg.webp");
+}
+.photo-clicked4
+{
+    background-image: url("home-img/insta-4.jpg.webp");
+}
+.photo-clicked5
+{
+    background-image: url("home-img/insta-5.jpg.webp");
+}
+.photo-clicked,.photo-clicked2 ,.photo-clicked3 ,.photo-clicked4,.photo-clicked5
+{
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position:absolute; */
+    height: 372px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+.post-hover
+{
+    background: #ffffff;
+    text-align: center;
+    transition: all, 0.5s;
+    /* transform: scale(0); */
+    /* padding: 20px 75px 16px; */
+    /* visibility: hidden; */
+    -webkit-transition: all, 0.5s;
+}
+.post-btn
+{
+    position: absolute;
+    /* margin-top: 350x; */
+    left: 65px;
+    top: 5430px;
+    width: 180px;
+    height: 100px;
+    background-color: white;
+    border:none ;
+    /* padding: 20px 75px 16px; */
+    /* opacity: 0; */
+    visibility: hidden;
+
+
+}
+.photo-clicked:hover .post-btn
+{ 
+    visibility: visible;
+    transition: all, 0.5s;
+    transform: scale(1.2);
+
+}
+
+.post-btn2
+{
+    position: absolute;
+
+    left: 370px;
+    top: 5430px;
+    width: 180px;
+    height: 100px;
+    background-color: white;
+    border:none ;
+    visibility: hidden;
+}
+.photo-clicked2:hover .post-btn2
+{
+    visibility: visible;
+    transition: all, 0.5s;
+    transform: scale(1.2);
+}
+.post-btn3
+{
+    position: absolute;
+
+    left: 670px;
+    top: 5430px;
+    width: 180px;
+    height: 100px;
+    background-color: white;
+    border:none ;
+    visibility: hidden;
+}
+.photo-clicked3:hover .post-btn3
+{
+    visibility: visible;
+    transition: all, 0.5s;
+    transform: scale(1.2);
+}
+.post-btn4
+{
+    position: absolute;
+
+    left: 970px;
+    top: 5430px;
+    width: 180px;
+    height: 100px;
+    background-color: white;
+    border:none ;
+    visibility: hidden;
+}
+.photo-clicked4:hover .post-btn4
+{
+    visibility: visible;
+    transition: all, 0.5s;
+    transform: scale(1.2);
+}
+.post-btn5
+{
+    position: absolute;
+
+    left: 1270px;
+    top: 5430px;
+    width: 180px;
+    height: 100px;
+    background-color: white;
+    border:none ;
+    visibility: hidden;
+}
+.photo-clicked5:hover .post-btn5
+{
+    visibility: visible;
+    transition: all, 0.5s;
+    transform: scale(1.2);
+}
