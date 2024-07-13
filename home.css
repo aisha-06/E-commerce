@@ -657,16 +657,17 @@ ul
 .post-btn
 {
     position: absolute;
-    /* margin-top: 350x; */
-    left: 65px;
-    top: 5430px;
+    left: 69px;
+    top: 5370px;
     width: 180px;
-    height: 100px;
+    height: 60px;
     background-color: white;
     border:none ;
-    /* padding: 20px 75px 16px; */
-    /* opacity: 0; */
     visibility: hidden;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
+
 
 
 }
@@ -674,79 +675,90 @@ ul
 { 
     visibility: visible;
     transition: all, 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.5);
 
 }
 
 .post-btn2
 {
     position: absolute;
-
-    left: 370px;
-    top: 5430px;
+    left: 374px;
+    top: 5370px;
     width: 180px;
-    height: 100px;
+    height: 60px;
     background-color: white;
     border:none ;
     visibility: hidden;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
 }
 .photo-clicked2:hover .post-btn2
 {
     visibility: visible;
     transition: all, 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 .post-btn3
 {
     position: absolute;
 
-    left: 670px;
-    top: 5430px;
+    left: 673px;
+    top: 5370px;
     width: 180px;
-    height: 100px;
+    height: 60px;
     background-color: white;
     border:none ;
     visibility: hidden;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
 }
 .photo-clicked3:hover .post-btn3
 {
     visibility: visible;
     transition: all, 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 .post-btn4
 {
     position: absolute;
 
     left: 970px;
-    top: 5430px;
+    top: 5370px;
     width: 180px;
-    height: 100px;
+    height: 50px;
     background-color: white;
     border:none ;
     visibility: hidden;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
 }
 .photo-clicked4:hover .post-btn4
 {
     visibility: visible;
     transition: all, 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 .post-btn5
 {
     position: absolute;
 
     left: 1270px;
-    top: 5430px;
+    top: 5370px;
     width: 180px;
-    height: 100px;
+    height: 50px;
     background-color: white;
     border:none ;
     visibility: hidden;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
 }
 .photo-clicked5:hover .post-btn5
 {
     visibility: visible;
     transition: all, 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
