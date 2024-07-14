@@ -284,6 +284,7 @@ h2 button{
     margin-top: -68px;
     margin-left: 864px;
     padding: 100px;
+    margin-bottom: 10px;
 }
 .clone1{
     display: flex;
@@ -318,18 +319,45 @@ h2 button{
     text-transform: uppercase;
     margin-left: 33px;
 }
-.clone-border{
-    border: 1px solid rgb(255, 255, 255, 0.2);
-    padding: 100px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    margin-right: 1285px;
-    margin-left: 1317px;
-    margin-top: -196px;
-}
 .shop-info{
     display: grid;
     grid-template-columns: auto auto auto;
-    
+    grid-template-rows: auto;
+    margin-top: 0px;
+    margin-right: 950px;
+    margin-left: 950px;
+}
+.about-company{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    border: 1px solid #eaeaea;
+    border-left: none;
+}
+.company{
+    list-style-type: none;
+    margin-left: 0px;
+}
+.head-info-foot{
+    color: #111111;
+    font-family: "Libre Baskerville", serif;
+    font-size: 75px;
+    margin-top: 134px;
+}
+.account{
+    list-style-type: none;
+    margin-left: 290px;
+    margin-right: -573px;
+}
+.newletter{
+    border: 1px solid #eaeaea;
+    border-left: none;
+    justify-content: center;
+    /* margin-left: 30px; */
+}
+.get-in-touch{
+    border: 1px solid #eaeaea;
+    border-left: none;
+    border-right: none;
+    justify-content: center;
 }
