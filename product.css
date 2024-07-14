@@ -349,6 +349,11 @@ h2 button{
     margin-left: 290px;
     margin-right: -573px;
 }
+.account button{
+    color: #444444;
+    font-family: "Quicksand", sans-serif;
+    font-size: ;
+}
 .newletter{
     border: 1px solid #eaeaea;
     border-left: none;
