@@ -277,3 +277,59 @@ h2 button{
     height: 91%;
     width: 1178px;
 }
+.footer-clone{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: -68px;
+    margin-left: 864px;
+    padding: 100px;
+}
+.clone1{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.clone1 img{
+    height: 109px;
+}
+.clone-text{
+    color: black;
+    font-family: "Quicksand", serif;
+    font-size: 50px;
+    font-weight: 350;
+    margin-left: 575px;
+    letter-spacing: -1px;
+}
+.header2-clone{
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.header2-clone button{
+    border: transparent;
+    background-color: transparent;
+    gap: 100px;
+    padding: 22px;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-left: 33px;
+}
+.clone-border{
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    padding: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 1285px;
+    margin-left: 1317px;
+    margin-top: -196px;
+}
+.shop-info{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
