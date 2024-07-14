@@ -353,7 +353,7 @@ h2 button{
     border: 1px solid #eaeaea;
     border-left: none;
     justify-content: center;
-    /* margin-left: 30px; */
+    text-align: left;
 }
 .get-in-touch{
     border: 1px solid #eaeaea;
