@@ -559,15 +559,6 @@ ul
     text-decoration: underline;
     text-decoration-color:#111111 ;
 }
-.img-carousel
-{
-    /* display: grid;
-    grid-template-columns: auto auto; */
-    /* gap: 400px; */
-    /* margin-top: 20vh; */
-    /* justify-content: space-between; */
-     
-}
 .carousel-img
 {
     width: 250px;
@@ -761,4 +752,112 @@ ul
     visibility: visible;
     transition: all, 0.5s;
     transform: scale(1.5);
+}
+.company  a
+{
+    list-style: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    
+    color:#444444;
+}
+.company h2
+{
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 26px;
+}
+.account a
+{
+    list-style: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    
+    color:#444444;
+
+}
+.account h2{
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 26px;
+}
+.footer-company-acc
+{
+    display: flex;
+    /* border: 1px solid #111111; */
+    /* border-right: none; */
+    
+}
+.footer-options
+{
+    border: 1px solid #111111;
+    border-left: none;
+    border-right: none;
+
+}
+.footer-newsletter
+{
+    position: relative;
+    border: 1px solid #111111;
+    border-top: none;
+    border-bottom: none;
+}
+.footer-newsletter input
+{
+    font-size: 15px;
+    color: #888888;
+    height: 35px;
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid #111111;
+}
+.footer-newsletter button
+{
+    font-size: 15px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 26vh;
+    top: 7vh;
+    height: 100%;
+}
+.footer-newsletter p
+{
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    color: #444444;
+    font-weight: 400;
+    line-height: 27px;
+}
+.footer-newsletter h3
+{
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 26px;
+}
+.footer-get-in-touch li
+{
+    list-style: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#444444;
+}
+.footer-get-in-touch h3
+{
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+    font-size: 26px;
+}
+.footer__copyright a
+{
+  text-decoration: none;
+  color: #f45d96;
 }
