@@ -333,6 +333,7 @@ h2 button{
     list-style-type: none;
     border: 1px solid #eaeaea;
     border-left: none;
+    margin-bottom: 0px;
 }
 .company{
     list-style-type: none;
@@ -341,28 +342,92 @@ h2 button{
 .head-info-foot{
     color: #111111;
     font-family: "Libre Baskerville", serif;
-    font-size: 75px;
+    font-size: 76px;
     margin-top: 134px;
 }
 .account{
     list-style-type: none;
     margin-left: 290px;
-    margin-right: -573px;
+    margin-right: -681px;
+    margin-bottom: 150px;
 }
-.account button{
+.footer-btn{
     color: #444444;
     font-family: "Quicksand", sans-serif;
-    font-size: ;
+    font-size: 45px;
+    margin-top: 50px;
+    border: none;
+    background-color: transparent;
+    margin-left: -1px;
 }
 .newletter{
     border: 1px solid #eaeaea;
     border-left: none;
     justify-content: center;
-    text-align: left;
+}
+.footer-align{
+    list-style-type: none;
+    margin-left: 150px;
+    margin-right: -808px;
+}
+.subscription{
+    color: #444444;
+    font-family: "Quicksand", sans-serif;
+    font-size: 48px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #111111;
+    padding-bottom: 0px;
+    width: 910px;
+}
+.subscribe-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    padding: 40px 0;
+}
+.subscribe-input::placeholder {
+    color: #ccc;
+    font-size: 50px;
+}
+.subscribe-button {
+    border: none;
+    background: none;
+    font-size: 47px;
+    color: #111111;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 100%;
+    cursor: pointer;
+    padding: 0;
 }
 .get-in-touch{
     border: 1px solid #eaeaea;
     border-left: none;
     border-right: none;
     justify-content: center;
+}
+.address{
+    color: #444444;
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    line-height: 2.5;
+    letter-spacing: 3px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+.copyright{
+    color: #444444;
+    font-family: "Quicksand", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
