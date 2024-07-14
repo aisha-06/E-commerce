@@ -274,14 +274,39 @@ h2 button{
     margin-right: 30px;
 }
 .insta-promo-img img{
-    height: 91%;
+    height: 98%;
     width: 1178px;
+}
+.insta-img-container {
+    position: relative;
+    display: inline-block;
+}
+.insta-hidden-btn {
+    position: absolute;
+    visibility: hidden;
+    text-align: center;
+    margin-top: -755px;
+  }
+.insta-hidden-btn button {
+    position: absolute;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 47px;
+    white-space: nowrap;
+    background-color: white;
+    border: 1px solid white;
+    padding: 50px 217px;
+    align-items: center;
+    margin-left: 151px;
+}
+.insta-img-container:hover .insta-hidden-btn {
+    visibility: visible;
 }
 .footer-clone{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin-top: -68px;
+    margin-top: 12px;
     margin-left: 864px;
     padding: 100px;
     margin-bottom: 10px;
@@ -388,8 +413,9 @@ h2 button{
     border: none;
     outline: none;
     flex: 1;
-    font-size: 16px;
+    font-size: 47px;
     padding: 40px 0;
+    color:  #888888d0;
 }
 .subscribe-input::placeholder {
     color: #ccc;
