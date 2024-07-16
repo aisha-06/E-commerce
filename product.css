@@ -457,3 +457,296 @@ h2 button{
     margin-top: 80px;
     margin-bottom: 80px;
 }
+/* @media (max-width: 915px) {
+    .navbar-right{
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        margin-top: 100px;
+        gap: 100px;
+        background-color: white;
+    }
+    .navbar-left{
+        margin-left: 550px;
+    }
+    .navbar-left img{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .header-background{
+        margin-top: 180px;
+        width: 100%;
+    }
+    h1{
+        margin-left: 10px;
+    }
+    .insta-promo-img{
+        grid-template-columns: auto;
+        margin-left: 215px;
+    }
+    .product-info{
+        grid-template-columns: auto auto;
+        margin-left: 820px;
+    }
+    .product-info img{
+        height: 1000px;
+        width: auto;
+    }
+} */
+ 
+ /* For iPads (max-width: 768px) */
+@media (max-width: 768px) {
+    .navbar-left, .navbar-right, .header-background, .product-info, .insta-promo-img {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #navbar1 {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .navbar-left {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .navbar-right {
+        margin-right: 0;
+        gap: 20px;
+    }
+    .nav-button button {
+        font-size: 24px;
+    }
+    .icon {
+        font-size: 40px;
+    }
+    .icon-button {
+        gap: 20px;
+    }
+    .header-background {
+        height: 300px;
+        background-size: cover;
+    }
+    h1 {
+        font-size: 80px !important;
+        margin-left: 10px;
+        margin-top: 20px !important;
+    }
+    h2 {
+        font-size: 24px !important;
+        margin-left: 10px;
+        margin-top: 60px !important;
+    }
+    .product-info {
+        grid-template-columns: auto auto;
+        margin-left: 0;
+        margin-right: 0;
+        gap: 10px;
+    }
+    .product-info img {
+        height: 400px;
+        width: 100%;
+    }
+    .hidden-btn button {
+        font-size: 24px;
+        padding: 10px;
+    }
+    .cart-btn button {
+        font-size: 24px;
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .insta-promo-img {
+        grid-template-columns: auto auto;
+        gap: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .insta-promo-img img {
+        width: 100%;
+    }
+    .footer-clone {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 50px;
+    }
+    .clone-text {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .shop-info {
+        grid-template-columns: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .about-company {
+        flex-direction: column;
+        align-items: center;
+    }
+    .account {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .footer-btn {
+        font-size: 24px;
+    }
+    .footer-align {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .subscribe-container {
+        width: 100%;
+    }
+    .subscribe-input {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+    .subscribe-input::placeholder {
+        font-size: 24px;
+    }
+    .subscribe-button {
+        font-size: 24px;
+    }
+    .address {
+        font-size: 24px;
+    }
+    .copyright {
+        font-size: 24px;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 900px) {
+    body{
+        overflow-x: hidden;
+    }
+    #navbar1 {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .navbar-left {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .navbar-right {
+        margin-right: 0;
+        gap: 10px;
+    }
+    .nav-button button {
+        font-size: 20px;
+    }
+    .icon {
+        font-size: 30px;
+    }
+    .icon-button {
+        gap: 10px;
+    }
+    .header-background {
+        height: 458px;
+        width: 1644px;
+        max-width: 407%;
+        background-size: cover;
+    }
+    h1 {
+        font-size: 90px !important;
+        margin-left: 500px;
+        margin-top: 50px !important;
+    }
+    h2 {
+        font-size: 80px !important;
+        margin-left: 500px;
+        margin-top: 70px !important;
+    }
+    .product-info {
+        grid-template-columns: auto auto;
+        margin-left: 800px;
+        margin-right: 0;
+        gap: 30px;
+    }
+    .product-info img {
+        height: 1000px;
+        width: auto;
+    }
+    .hidden-btn button {
+        font-size: 20px;
+        padding: 5px;
+    }
+    .cart-btn button {
+        font-size: 20px;
+        padding: 3px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .insta-promo-img {
+        grid-template-columns: auto;
+        gap: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 100px;
+    }
+    .insta-promo-img img {
+        margin-left: 450px;
+        height: 1210px;
+        width: auto;
+    }
+    .footer-clone {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 30px;
+    }
+    .clone-text {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .shop-info {
+        grid-template-columns: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .about-company {
+        flex-direction: column;
+        align-items: center;
+    }
+    .account {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer-btn {
+        font-size: 20px;
+    }
+    .footer-align {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .subscribe-container {
+        width: 100%;
+    }
+    .subscribe-input {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .subscribe-input::placeholder {
+        font-size: 20px;
+    }
+    .subscribe-button {
+        font-size: 20px;
+    }
+    .address {
+        font-size: 20px;
+    }
+    .copyright {
+        font-size: 20px;
+    }
+}

@@ -101,7 +101,7 @@ h6{
     font-size: 17px;
     font-family: "Libre Baskerville", serif;
     font-weight:500;
-    margin-left: 620px;
+    margin-left: 707px;
     margin-top: -34px;
 }
 a{
@@ -115,6 +115,7 @@ a{
     color: #99898d;
     border: 1 px solid white;
     margin-bottom: 15px;
+    color: #b4b6b5;
 }
 .checkout__form form label{
     position: relative;
@@ -128,4 +129,32 @@ a{
 label {
     display: inline-block;
     box-sizing: border-box;
+    margin-left: 1px;
+    margin-top: 16px;
+    color: #b4b6b5;
+}
+.checkout address h4{
+    font-family:  "Libre Baskerville", serif;
+    font-size: 26px;
+    color: black;
+    margin-top: 61;
+    margin-bottom: 24px;
+}
+
+p{
+    font-size: 16px;
+    font-family:"Libre Baskerville", serif;
+    color: black;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.checkout__address .input__item input {
+    color: #888888;
+    padding-left: 20px;
+}
+.checkout__address .input__item p{
+    color: black;
+}
+.checkout__proceed{
+
 }
