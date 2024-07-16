@@ -924,8 +924,6 @@ ul
 .footer-company-acc
 {
     display: flex;
-    /* border: 1px solid #111111; */
-    /* border-right: none; */
     
 }
 .footer-options
@@ -947,7 +945,7 @@ ul
     font-size: 15px;
     color: #888888;
     height: 35px;
-    width: 60%;
+    width: 70%;
     border: none;
     border-bottom: 2px solid #111111;
 }
@@ -961,7 +959,7 @@ ul
     background: transparent;
     position: absolute;
     right: 26vh;
-    top: 7vh;
+    top: 6vh;
     height: 100%;
 }
 .footer-newsletter p
@@ -1064,5 +1062,149 @@ ul
    {
     height: 500px;
 
+   }
+   .product-item-pic1,.product-item-pic2 ,.product-item-pic3,.product-item-pic4,.product-item-pic5,
+   .product-item-pic6,.product-item-pic7,.product-item-pic8,.product-item-pic9,.product-item-pic10
+   {
+    height: 320px;
+    width: 170px;
+   }
+   .product-item-text1 a ,.product-item-text a
+   {
+    font-size: 13px;
+   }
+   .hidden-btn-div
+{
+    margin-top: 230px;
+}
+.hidden-btn-div9,.hidden-btn-div2,.hidden-btn-div4,.hidden-btn-div5,.hidden-btn-div6
+{
+    margin-top: 275px;
+
+}
+.product-price,.product-price2 ,.product-price3 , .product-price4 ,.product-price5
+{
+    top:2790px;
+}
+
+
+.product-price,.product-price6
+{
+    left: 7vh;
+}
+.product-price2,.product-price7
+{
+    left: 21vh;
+}
+.product-price3,.product-price8
+{
+    left: 34vh;
+}
+.product-price4,.product-price9
+{
+    left: 47vh;
+}
+.product-price5,.product-price10
+{
+    left: 61vh;
+}   
+ .bg-img2
+ {
+    width: 1200px;
+    height: 550px;
+ }
+ .bg-img2 h2
+ {
+    font-size: 45px;
+ }
+ .view-btn-div .white-btn
+ {
+    margin-left:180px ;
+ }
+ .blog-img
+{
+    height: 100%;
+    width: 70px;
+}
+.img-carousel
+{
+
+    width: 995px;
+    height:502px;
+}
+.post-btn
+{
+    left: 60px;
+    top: 5370px;
+    width: 100px;
+    height: 60px;
+    font-size: 10px;
+}
+.post-btn2
+{
+    left: 260px;
+    top: 5370px;
+    width: 100px;
+    height: 60px;
+    font-size: 10px;
+}
+.post-btn3
+{
+
+    left: 460px;
+    top: 5370px;
+    width: 100px;
+    height: 60px;
+    font-size: 10px;
+}
+.post-btn4
+{
+    left: 655px;
+    top: 5370px;
+    width: 100px;
+    height: 60px;
+    font-size: 10px;
+}
+.post-btn5
+{
+    left: 855px;
+    top: 5370px;
+    width: 100px;
+    height: 60px;
+    font-size: 10px;
+}
+.footer-company-acc
+{
+    padding-left:30px;
+}
+.footer-newsletter button
+{
+    font-size: 13px;
+    right: 3vh;
+    top: 6vh;
+    height: 100%;
+}
+.footer-newsletter input
+{
+    font-size: 14px;
+    height: 45px;
+    width: 110%;
+}
+.footer-newsletter
+{
+    padding-left: 50px;
+}
+}
+@media only screen and (min-width:412px) and (max-device-width: 915px)
+{
+    .navbar
+    {
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+        gap: 70px;
+    }
+    .bg-img
+   { 
+    width: 1800px;
+    height: 300px; 
    }
 }
