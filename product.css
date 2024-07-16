@@ -666,7 +666,7 @@ h2 button{
     }
     .product-info {
         grid-template-columns: auto auto;
-        margin-left: 620px;
+        margin-left: 800px;
         margin-right: 0;
         gap: 30px;
     }
@@ -686,12 +686,15 @@ h2 button{
     }
     .insta-promo-img {
         grid-template-columns: auto;
-        gap: 5px;
+        gap: 50px;
         margin-left: 0;
         margin-right: 0;
+        margin-top: 100px;
     }
     .insta-promo-img img {
-        width: 100%;
+        margin-left: 450px;
+        height: 1210px;
+        width: auto;
     }
     .footer-clone {
         flex-direction: column;
