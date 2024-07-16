@@ -1,78 +1,53 @@
 body{
     background-color: white;
 }
-#navbar1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    color: black;
-    font-family: "Oswald", sans-serif;
-    height: 282px;
+.navbar
+{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 60px;
+    list-style: none;   
 }
-.navbar-left {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    margin-left: 950px;
-}
-.navbar-left img{
-    height: 118px;
-}
-.navbar-right {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    gap: 130px;
-    margin-right: 1251px;
-    text-transform: capitalize;
-}
-.nav-button button{
-    border: none;
-    background-color: transparent;
-    font-size: 49px;
-}
-.nav-button button:hover{
-    color: #f45d96;
-}
-.icon-button{
+.header-right-choices
+{
     display: flex;
 }
-.icon-button button{
-    gap: 90px;
-    border: none;
-    background-color: transparent;
+.dropdown-btn
+{
+    visibility: hidden ;
+    cursor:pointer;
+    background-color: black;
+    width: 60px;
+    height: 60px; 
 }
-.bag-image{
-    height: 80px;
-    margin-left: 30px;
+.header-menu
+{
+ border: none;
+ background-color: white;
+
 }
-.icon{
-    font-size: 82px;
-    margin-top: 4px;
+.header-menu:hover
+{
+    color: palevioletred;
 }
-.icon-button button:hover{
-    color: black;
+.logo-img
+{
+    width: 140px;
 }
-#likes{
-    position: absolute;
-    font-size: 40px;
-    margin-top: 17px;
-    margin-left: 30px;
-    cursor: text;
-    opacity: 0.7;
+.drop-btn-item 
+{
+  
+  color: white;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
 }
-#bag-text{
-    position: absolute;
-    font-size: 40px;
-    margin-top: 15px;
-    margin-left: 130px;
-    cursor: text;
-    opacity: 0.7;
-}
-#cart-cost{
-    color: #ff0062;
-    font-weight: 799;
+.dropdown-ul:hover .dropdown-btn
+{
+  visibility: visible ;
+  cursor: pointer;
 }
 .header-background{
     background-image: url('product-img/breadcrumb-bg.png');
