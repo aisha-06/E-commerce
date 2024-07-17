@@ -17,27 +17,45 @@
       <div class="header-navbar">
         <nav class="navbar" style="background-color: white;" id="navbar1">
           <ul class="navbar-left">
-            <li><img src="product-img/logo.png.webp" alt="Shop logo"></li>
+            <li class="web-logo"><img src="product-img/logo.png.webp" alt="Shop logo"></li>
           </ul>
           <ul class="navbar-right">
-            <li class="nav-button"><button>HOME</button></li>
-            <li class="nav-button"><button>ABOUT</button></li>
-            <li class="nav-button"><button>SERVICES</button></li>
-            <li class="nav-button"><button>SHOP</button></li>
-            <li class="nav-button"><button>PAGE</button></li>
-            <li class="nav-button"><button>BLOG</button></li>
-            <li class="nav-button" id="contact-btn"><button>CONTACT</button></li>
-            <li class="icon-button"><button><i class="fa-solid icon fa-magnifying-glass"></i></button></li>
-            <li class="icon-button"><button><i class="fa-regular icon fa-heart"></i><span id="likes">(05)</span></button></li>
-            <li class="icon-button"><button><img class="bag-image" src="product-img/bag-logo.png" alt="Bag-img"></button> <span id="bag-text"> (01) <span id="cart-cost">$ 65.0</span></span></li>
+            <li><a href="index.html"><button class="nav-button">Home</button></a></li>
+            <li><a href="#"><button class="nav-button">About</button></a></li>
+            <li><a href="#"><button class="nav-button">Services</button></a></li>
+            <li><a href="product.html"><button class="nav-button">Shop</button></a></li>
+            <li class="dropdown1">
+              <a href="#"><button class="nav-button">Pages</button></a>
+              <ul class="dropdown1-content">
+                <li><a href="cart.html" class="drop-btn-item">Cart</a></li>
+                <li><a href="checkout.html" class="drop-btn-item">Checkout</a></li>
+                <li><a href="product.html" class="drop-btn-item">Shop</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><button class="nav-button">Blog</button></a></li>
+            <li><a href="#"><button class="nav-button">Contact</button></a></li>
+            <li><i class="fa-solid icon fa-magnifying-glass"></i></li>
+            <li>
+              <button class="icon-button">
+                <i class="fa-regular icon fa-heart"></i><span id="likes">(05)</span>
+              </button>
+            </li>
+            <li>
+              <button class="icon-button">
+                <img class="bag-image" src="product-img/bag-logo.png" alt="Bag logo">
+                <span id="bag-text">(01)</span>
+                <span id="cart-cost">$ 65.0</span>
+              </button>
+            </li>
           </ul>
         </nav>
       </div>
-    </section>    
+    </section>
     <section class="header-image-section">
-      <div class="header-background">
+      <div class="header-background" style="display: flex;">
         <h1>Shop</h1> 
-        <h2><button>HOME </button> |  SHOP</h2>
+       <a href="index.html"><h2 class="pe-3"><button>HOME  </button> </h2></a> 
+       <h3 class="ps-5 " > | Shop</h3>
       </div>
     </section>
     <section class="sorting-element-section">

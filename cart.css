@@ -471,8 +471,8 @@ margin-left:1040px;
     border:none ;
     padding: 20px 75px 16px;
     opacity: 0;
+  }
 
- }
  .button1 i{
     color: #f45d96;
     font-size: 35px;
@@ -486,14 +486,13 @@ margin-left:1040px;
     transition:all,0.5s;
 
  }
+ 
  .button1 p{
     font-family:"Quicksand", sans-serif;
     font-weight: 500;
     margin-top: 26px;
     font-size: 20px;
  }
-
-
 
  .image2{
     position:relative;
@@ -518,13 +517,13 @@ margin-left:1040px;
     position: absolute;
     margin-top: 1px;
     margin-left: -10px;
-    
- } 
-  .button2:hover{
+     
+ }  
+   .button2:hover{
     opacity: 1;
     transition: opacity 0.1s ease-in-out;
- }
- .button2 p{
+ } 
+  .button2 p{
     font-family:"Quicksand", sans-serif;
     font-weight: 500;
     margin-top: 26px;
@@ -545,6 +544,8 @@ margin-left:1040px;
  .image5{
     margin-top: 200px;
  } 
+ 
+
 .cart-coupon{
     background-color: #f7f5fa;
     padding: 30px;
@@ -843,6 +844,18 @@ font-family: "Libre Baskerville",serif;
   margin-left: 30px;
    position: absolute;
 }
+.line4{
+top:914px; 
+width: 1250px; 
+margin-left: 30px; 
+position: absolute;
+}
+.line5{
+  top:1070px; 
+  width: 1250px; 
+  margin-left: 30px;
+   position: absolute;
+}
 .item-quantity3{
   margin-left: 700px;
    margin-top:-20px;
@@ -852,10 +865,31 @@ font-family: "Libre Baskerville",serif;
    margin-top: -35px;
    position: absolute;
 }
+.item-quantity4{
+  position: absolute;
+   margin-top: 130px; 
+   margin-left: 700px;
+}
+.flex-item4 p {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "Quicksand",serif;
+  margin-top: 125px;
+  margin-left: -102px;
+  font-weight: 400;
+  line-height: 46px;
+}
+.myname{
+color: #f45d96;
+ position: absolute; 
+ margin-left: 300px; 
+ margin-top: -40px;
+}
+
 @media screen and (max-width:768px){
   .images{
     margin-top: -30px;
-    width: 390px;
+    width: 100%;
     /* position: absolute; */
   }
   .nav-menu{
@@ -938,7 +972,7 @@ font-family: "Libre Baskerville",serif;
     
   } 
   .line {
-    width: 295%;
+    width: 296%;
     margin-left: 0%;
     margin-top: 243px;
 }
@@ -968,9 +1002,10 @@ font-family: "Libre Baskerville",serif;
   font-size: 16px;
 }
 .line2{
-  width: 295%;
+  width: 100%;
   margin-left: 0%;
   margin-top: 549px;
+  position: absolute;
 }
 .cart-item2{
   width: 61px;
@@ -1006,9 +1041,10 @@ font-family: "Libre Baskerville",serif;
   font-size: 16px;
 }
 .line3{
-  width: 295%;
+  width: 100%;
   margin-left: 0%;
   margin-top: 42px;
+
 }
 .cart-item3-img{
   width: 64px;
@@ -1046,9 +1082,299 @@ font-family: "Libre Baskerville",serif;
   font-size: 16px;
   margin-top: -23px;
 }
+.line4{
+  margin-left: 0;
+        width: 100%;
+        margin-top: 23px;
+}
+.cart-item4-img{
+  width: 66px;
+  margin-left: 7px;
+  margin-top: 82px;
+}
+.cart-item4-text{
+  font-size: 12px;
+  margin-left: 6px;
+  margin-top: 156px;
+}
+.remove-item4{
+  width: 16px;
+  margin-left: 125px;
+  margin-top: 115px;
+
+}
+.add-item4{
+  margin-top: 115px;
+  margin-left: 208px;
+  width: 16px;
+}
+.item-quantity4 {
+  margin-left: 172px;
+  font-size: 16px;
+  margin-top: 111px;
+
+}
+.total-amount4 h4{
+  margin-left: 284px;
+  margin-top: 111px;
+  font-size: 16px;
+}
+.total-amount4 i {
+  margin-left: 347px;
+  font-size: 16px;
+  margin-top: 116px;
+}
+.line5{
+  margin-left: 0;
+  width: 100%;
+  margin-top: -2PX;
+}
+.cart-continue i{
+  margin-left: 13px;
+  margin-top: -182px;
+  font-size: 16px;
+}
+.cart-continue a{
+  font-size: 9px;
+  margin-top: 220px;
+  margin-left: 33px;
+}
+.delete i {
+  font-size: 16px;
+  margin-left: 136px;
+  margin-top: 217px;
+}
+.delete a{
+  margin-left: 155px;
+  font-size: 9px;
+  margin-top: 218px
+}
+.update-cart i {
+  font-size: 16px;
+  margin-left: 269px;
+  margin-top: 217px;
+}
+.update-cart a {
+  margin-left: 294px;
+  font-size: 9px;
+  margin-top: 218px
+}
+.search{
+  margin-left: -337px;
+  margin-top: -13px;
+  width: 13px;
+}
+.bag{
+  margin-top: -79px;
+  width: 11.5px;
+  margin-left: -365px;
+}
+
+.heart{
+  margin-top: -77px;
+  width: 13px;
+  margin-left: -34px;
+}
+.spn1{
+  margin-top: -77px;
+  font-size: 8px;
+  margin-left: -46px;
+}
+.spn3{
+  margin-left: -361px;
+  margin-top: -78px;
+  font-size: 8px;
+}
+.spn2{
+  margin-top: -80px;
+  font-size: 11px;
+  margin-left: -341px;
+  font-weight: 700;
+}
+
+.flower-images{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.image1{
+  margin-top: 141px;
+  margin-left: 33px;
+  width: 248px;
+}
+.image2{
+  width: 248px;
+  margin-top: -105px;
+  margin-left: 33px;
+}
+.image3{
+  width: 248px;
+  margin-top: -105px;
+  margin-left: 33px;
+}
+
+.image4{
+  margin-top: -104px;
+  margin-left: 33px;
+}
+.image5{
+  margin-top: -110px;
+  margin-left: 33px;
+} 
+.footer-part1{
+  margin-top: 676px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px
+
+}
+.footer{
+}
+.cart-coupon{
+  margin-left: 0;
+  width: 100%;
+  margin-top: 49px;
+}
+.cart-total{
+  width: 103%;
+  margin-left: 0;
+  margin-top: 279px;
+}
+.florist-para{
+  text-align: center;
+  font-size: 17px;
+}
+.social-media-logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 58px;
+  padding-bottom: 43px;
+  border-bottom: 1px solid lightgrey;
+}
+.footer-part1 img{
+  margin-left: 123px;
+  margin-top: -47px;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 219px;
+}
+.flex-item1 {
+  margin-top: 403%;
+  margin-left: -156px;
+}
+.flex-item2{
+  position: absolute;
+  margin-left: -191px;
+  margin-top: 402%;
+}
+.flex-item h4{
+  margin-left: 23px;
+  margin-top: -40px;
+}
+.flex-item{
+  border-left: none;
+  padding-bottom: 22px;
+}
+.flex-item form input {
+  margin-left: -419px;
+  margin-top: 188px;
+  width: 42%;
+}
+.flex-item form button{
+  font-size: 14px;
+  margin-top: 170px;
+  margin-left: -120px;
+}
+.flex-item p {
+  margin-left: 20px;
+  margin-top: 82px;
+  font-size: 18px;
+}
+.flex-container{
+ margin-bottom: 330px; 
+}
+.flex-item4 h4{
+  margin-left: 20px;
+  margin-top: -39px;
+}
+.flex-item4 p{
+
+  margin-left: -441px;
+  line-height: 36px;
+  margin-top: 71px;
+  margin-bottom: 39px;
+  font-size: 16px;
+}
+.copy-right{
+  position: absolute;
+  top: 517%;
+  font-size: 14px;
+}
+.copy-right span{
+  margin-left: 40px;
+  margin-top: -35px;
+}
+.button1{
+  opacity: 0;
+  margin-left: -244px;
+  margin-top: 235px;
+  width: 62%;
+  height: 69px;
+}
+.button1 i{
+  font-size: 16px;
+  margin-top: -5px;
+  margin-left: -6px;
+}
+.button1 p{
+  font-size: 15px;
+  margin-top: -14px;
+  line-height: 16px;
+}
+.button1:hover{
+  opacity: 1;
+}
+.image1 button {
+  opacity: 0;
+  margin-left: 39px;
+  margin-top: -157px;
+  width: 94%;
+}
+.image1 button:hover{
+  opacity: 1;
+}
+.image2 button{
+          opacity: 0;
+          position: absolute;
+          top: -99px;
+          width: 94%;
+          height: 80px;
+          margin-left: 40px;
+}
+.image2 i {
+  font-size: 18px;
+  margin-top: -4px;
+  margin-left: -3px;
+}
+.image2 p {
+  font-size: 16px;
+  margin-top: -9px;
+  line-height: 16px;
+}
+.image2 button:hover{
+  opacity: 1;
+}
+.image3 button{
+  opacity: 0;
+  margin-left: 36px;
+  margin-top: -153px;
+}
+.image3 button:hover{
+  opacity: 1;
+}
 }
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
-
-}
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){} */
