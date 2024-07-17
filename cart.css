@@ -870,10 +870,26 @@ position: absolute;
    margin-top: 130px; 
    margin-left: 700px;
 }
+.flex-item4 p {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "Quicksand",serif;
+  margin-top: 125px;
+  margin-left: -102px;
+  font-weight: 400;
+  line-height: 46px;
+}
+.myname{
+color: #f45d96;
+ position: absolute; 
+ margin-left: 300px; 
+ margin-top: -40px;
+}
+
 @media screen and (max-width:768px){
   .images{
     margin-top: -30px;
-    width: 390px;
+    width: 100%;
     /* position: absolute; */
   }
   .nav-menu{
@@ -1143,10 +1159,222 @@ position: absolute;
   font-size: 9px;
   margin-top: 218px
 }
+.search{
+  margin-left: -337px;
+  margin-top: -13px;
+  width: 13px;
+}
+.bag{
+  margin-top: -79px;
+  width: 11.5px;
+  margin-left: -365px;
+}
 
+.heart{
+  margin-top: -77px;
+  width: 13px;
+  margin-left: -34px;
+}
+.spn1{
+  margin-top: -77px;
+  font-size: 8px;
+  margin-left: -46px;
+}
+.spn3{
+  margin-left: -361px;
+  margin-top: -78px;
+  font-size: 8px;
+}
+.spn2{
+  margin-top: -80px;
+  font-size: 11px;
+  margin-left: -341px;
+  font-weight: 700;
+}
+
+.flower-images{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.image1{
+  margin-top: 141px;
+  margin-left: 33px;
+  width: 248px;
+}
+.image2{
+  width: 248px;
+  margin-top: -105px;
+  margin-left: 33px;
+}
+.image3{
+  width: 248px;
+  margin-top: -105px;
+  margin-left: 33px;
+}
+
+.image4{
+  margin-top: -104px;
+  margin-left: 33px;
+}
+.image5{
+  margin-top: -110px;
+  margin-left: 33px;
+} 
+.footer-part1{
+  margin-top: 676px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px
+
+}
+.footer{
+}
+.cart-coupon{
+  margin-left: 0;
+  width: 100%;
+  margin-top: 49px;
+}
+.cart-total{
+  width: 103%;
+  margin-left: 0;
+  margin-top: 279px;
+}
+.florist-para{
+  text-align: center;
+  font-size: 17px;
+}
+.social-media-logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 58px;
+  padding-bottom: 43px;
+  border-bottom: 1px solid lightgrey;
+}
+.footer-part1 img{
+  margin-left: 123px;
+  margin-top: -47px;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 219px;
+}
+.flex-item1 {
+  margin-top: 403%;
+  margin-left: -156px;
+}
+.flex-item2{
+  position: absolute;
+  margin-left: -191px;
+  margin-top: 402%;
+}
+.flex-item h4{
+  margin-left: 23px;
+  margin-top: -40px;
+}
+.flex-item{
+  border-left: none;
+  padding-bottom: 22px;
+}
+.flex-item form input {
+  margin-left: -419px;
+  margin-top: 188px;
+  width: 42%;
+}
+.flex-item form button{
+  font-size: 14px;
+  margin-top: 170px;
+  margin-left: -120px;
+}
+.flex-item p {
+  margin-left: 20px;
+  margin-top: 82px;
+  font-size: 18px;
+}
+.flex-container{
+ margin-bottom: 330px; 
+}
+.flex-item4 h4{
+  margin-left: 20px;
+  margin-top: -39px;
+}
+.flex-item4 p{
+
+  margin-left: -441px;
+  line-height: 36px;
+  margin-top: 71px;
+  margin-bottom: 39px;
+  font-size: 16px;
+}
+.copy-right{
+  position: absolute;
+  top: 517%;
+  font-size: 14px;
+}
+.copy-right span{
+  margin-left: 40px;
+  margin-top: -35px;
+}
+.button1{
+  opacity: 0;
+  margin-left: -244px;
+  margin-top: 235px;
+  width: 62%;
+  height: 69px;
+}
+.button1 i{
+  font-size: 16px;
+  margin-top: -5px;
+  margin-left: -6px;
+}
+.button1 p{
+  font-size: 15px;
+  margin-top: -14px;
+  line-height: 16px;
+}
+.button1:hover{
+  opacity: 1;
+}
+.image1 button {
+  opacity: 0;
+  margin-left: 39px;
+  margin-top: -157px;
+  width: 94%;
+}
+.image1 button:hover{
+  opacity: 1;
+}
+.image2 button{
+          opacity: 0;
+          position: absolute;
+          top: -99px;
+          width: 94%;
+          height: 80px;
+          margin-left: 40px;
+}
+.image2 i {
+  font-size: 18px;
+  margin-top: -4px;
+  margin-left: -3px;
+}
+.image2 p {
+  font-size: 16px;
+  margin-top: -9px;
+  line-height: 16px;
+}
+.image2 button:hover{
+  opacity: 1;
+}
+.image3 button{
+  opacity: 0;
+  margin-left: 36px;
+  margin-top: -153px;
+}
+.image3 button:hover{
+  opacity: 1;
+}
 }
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
-
-}
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){} */
