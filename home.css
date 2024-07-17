@@ -17,7 +17,6 @@ body
 }
 .header-right-choices
 {
-    /* display: flex;   */
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
 
@@ -82,14 +81,11 @@ body
     font-family: "Libre Baskerville", serif;
     font-size: 40px;   
 }
-.btn-bg-img
-{
-    border-radius: 50%;
-    width: 100px;
-}
+
 .carousel-caption
 {
-    margin-right: 500px;
+    right: 600px;
+    bottom: 10vh;
 }
 .btn-shop-bg-img
 {
@@ -112,18 +108,9 @@ body
     margin-right: 5px;
     background-color: white;
     border-color: #f45d96;
-    /* transition:3s all ease;
-    user-select: none;
-    cursor: pointer; */
     
 }
-/* .owl-dot:hover .carousel 
-{
-    opacity: 1;
-    transition: all,0.5s;
-    border-color: #f45d96 ;
-    cursor: pointer;
-} */
+
 
 
 .card-div
@@ -219,8 +206,8 @@ body
 }
 .category-row
 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    /* grid-template-columns: auto auto auto auto; */
 }
 .about-title span
 {
@@ -459,7 +446,7 @@ ul
     font-weight: 700;
     letter-spacing: 4px;
    
-    /* margin-bottom: 20px; */
+   
  }
 .bg-img2-text h2
 {
@@ -1221,26 +1208,59 @@ ul
     
     .navbar
     {
-        grid-template-columns: auto auto  ;
+        grid-template-columns: auto auto   ;
         gap: 5px;
     }
    .bg-img
    {
-     width: 500px;
-     height: 300px;
+     width: 530px;
+     height: 320px;
    }
    .carousel-caption
 {
-    margin-right: 10vh;
+    top: 60px;
+    right: 10vh;
+
+}
+.owl-dots
+{
+    display: flex;
+    margin-bottom: 40vh;
+    margin-left: 10vh;
 }
 .bg-img-text
 {
+    
     font-size: 10px;
 }
+
 .bg-img-para
 {
-    font-size: 20px;   
+    font-size: 12px;   
 }
+.btn-shop-bg-img
+{
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+
+}
+.card-div
+{
+    gap: 10px;
+}
+.card-text
+{
+    font-size: 10px;
+    
+}
+.card-title
+{
+   
+    font-size: 11px;
+    
+}
+
    .footer-options
 {
   grid-template-columns: auto ;
@@ -1257,7 +1277,8 @@ ul
 }
 .category-row
 {
-    grid-template-columns: auto ;
+    
+    flex-wrap: wrap;
 }
 .btn-play-about
 {
