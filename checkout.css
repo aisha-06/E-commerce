@@ -155,15 +155,10 @@ p{
 .checkout__address .input__item p{
     color: black;
 }
-.checkout__proceed{
-<<<<<<< HEAD
+.checkout_proceed{
     margin-left: 1560px;
     margin-top: -1010px;
-}
-=======
-    padding : 30px;
-    color: grey;
-
+    
 }
 .checkout__proceed .checkout__proceed__title h4 {
     color: #111111;
@@ -174,13 +169,12 @@ p{
     position: relative;
 }
 .checkout__proceed{
+    position: absolute;
     margin-left: 888px;
     margin-right: -1010px;
-    margin-top: -1053px;
-}
-.checkout__proceed{
+    margin-top: -948px;
     background-color: #f7f5fa;
     border-style: double;
-    border: #111111;
+    border: 3px solid #f7f5fa;
+    padding: 90px 80px;
 }
->>>>>>> 78457504603ea5f04cb2eb413301ed4d6d4de85b
