@@ -168,3 +168,13 @@ p{
     padding: 0 15px 0 0;;
     position: relative;
 }
+.checkout__proceed{
+    margin-left: 888px;
+    margin-right: -1010px;
+    margin-top: -1053px;
+}
+.checkout__proceed{
+    background-color: #f7f5fa;
+    border-style: double;
+    border: #111111;
+}
