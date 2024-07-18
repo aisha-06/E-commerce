@@ -156,5 +156,15 @@ p{
     color: black;
 }
 .checkout__proceed{
+    padding : 30px;
+    color: grey;
 
+}
+.checkout__proceed .checkout__proceed__title h4 {
+    color: #111111;
+    margin-bottom: 38PX;
+    display: inline-block;
+    background-color: #f7f5fa;
+    padding: 0 15px 0 0;;
+    position: relative;
 }
