@@ -662,18 +662,33 @@ h2 button{
         margin-left: 0;
         justify-content: center;
     }
+    .navbar-left img{
+        height: 100px;
+        margin-left: 1119px;
+        margin-top: 46px;
+        margin-bottom: 46px;
+    }
     .navbar-right {
         margin-right: 0;
         gap: 10px;
     }
-    .nav-button button {
-        font-size: 20px;
+    .nav-button {
+        font-size: 35px;
+        margin-bottom: 172px;
+        margin-left: 57px;
     }
     .icon {
-        font-size: 30px;
+        font-size: 45px;
+        margin-left: 10px;
+    }
+    #magnify{
+        margin-right: 1700px;
+    }
+    #heart{
+        margin-left: 0px;
     }
     .icon-button {
-        gap: 10px;
+        gap: 30px;
     }
     .header-background {
         height: 458px;
@@ -693,12 +708,12 @@ h2 button{
     }
     .product-info {
         grid-template-columns: auto auto;
-        margin-left: 800px;
+        margin-left: 540px;
         margin-right: 0;
         gap: 30px;
     }
     .product-info img {
-        height: 1000px;
+        height: 900px;
         width: auto;
     }
     .hidden-btn button {
