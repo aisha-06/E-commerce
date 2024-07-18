@@ -886,7 +886,7 @@ color: #f45d96;
  margin-top: -40px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:430px) and (min-width:390px){
   .images{
     margin-top: -30px;
     width: 100%;
