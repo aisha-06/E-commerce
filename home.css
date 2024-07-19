@@ -90,8 +90,9 @@ body
 
 .carousel-caption
 {
-    right: 600px;
+    right: 500px;
     bottom: 10vh;
+    top: 100px;
 }
 .btn-shop-bg-img
 {
@@ -110,13 +111,15 @@ body
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    margin-top: 100px;
     margin-right: 5px;
     background-color: white;
     border-color: #f45d96;
     
 }
-
+.owl-dots
+{
+    margin-top: 30px;
+}
 
 
 .card-div
@@ -242,7 +245,6 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    /* position:absolute; */
 }
 .btn-play-about
 {
@@ -253,7 +255,6 @@ body
     border-color: white;
     margin-left: 380px;
     margin-top: 230px;
-    /* position: absolute; */
 }
 .play-icon
 {
@@ -1001,27 +1002,25 @@ ul
    }
    .bg-img-text
    {
-    font-size: 15px;
+    font-size: 20px;
+    margin-left: 50px;
     
    }
    .owl-dots
 {
     display: flex;
-    /* margin-bottom: 0vh; */
-    margin-left: 10vh;
-    /* width: 100%; */
-    /* max-width: fit-content; */
-    /* height: 100%; */
+    margin-left: 12vh;
+    margin-top: 5vh;
+}
+.carousel-caption
+{
+    top: 30px;
 }
    .bg-img-para
    {
-    font-size: 10px; 
+    font-size: 25px; 
    }
-   .carousel-caption
-   {
-    margin-right: 20vh;
-   }
-
+   
    .card-text
    {
     font-size: 15px; 
@@ -1085,7 +1084,11 @@ ul
 }
 .product-price,.product-price2 ,.product-price3 , .product-price4 ,.product-price5
 {
-    top:2790px;
+    top:2620px;
+}
+.product-price6,.product-price7 ,.product-price8 , .product-price9 ,.product-price10
+{
+    top:3010px;
 }
 
 
@@ -1118,6 +1121,10 @@ ul
  {
     font-size: 45px;
  }
+ .bg-img2-text
+ {
+    margin-top: 8vh;
+ }
  .view-btn-div .white-btn
  {
     margin-left:180px ;
@@ -1136,7 +1143,7 @@ ul
 .post-btn
 {
     left: 60px;
-    top: 5370px;
+    top: 5170px;
     width: 100px;
     height: 60px;
     font-size: 10px;
@@ -1144,7 +1151,7 @@ ul
 .post-btn2
 {
     left: 260px;
-    top: 5370px;
+    top: 5170px;
     width: 100px;
     height: 60px;
     font-size: 10px;
@@ -1153,7 +1160,7 @@ ul
 {
 
     left: 460px;
-    top: 5370px;
+    top: 5170px;
     width: 100px;
     height: 60px;
     font-size: 10px;
@@ -1161,7 +1168,7 @@ ul
 .post-btn4
 {
     left: 655px;
-    top: 5370px;
+    top: 5170px;
     width: 100px;
     height: 60px;
     font-size: 10px;
@@ -1169,7 +1176,7 @@ ul
 .post-btn5
 {
     left: 855px;
-    top: 5370px;
+    top: 5170px;
     width: 100px;
     height: 60px;
     font-size: 10px;
@@ -1437,6 +1444,4 @@ ul
 {
     width: 110%;
 }
-
-
 }
