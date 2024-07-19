@@ -804,13 +804,17 @@ font-family: "Libre Baskerville",serif;
     list-style-type: none;
  
 }
-.copy-right-div{
+.copy-right-div p {
     font-size:18px;
     font-family: "Quicksand",sans-serif;
     font-weight: 400;
     color: #444444;
     text-align: center;
     padding-top: 23px;
+}
+.copy-right-div .myname {
+  margin-left:65.3%;
+  position: absolute;
 }
 .copy-right-div i {
     color: #f45d96;
@@ -889,6 +893,10 @@ color: #f45d96;
  margin-left: 300px; 
  margin-top: -40px;
 }
+.dropdown-btn{
+  width: 70px;
+  height: 30px;
+}
 
 @media screen and (max-width:768px) {
   .images{
@@ -951,7 +959,6 @@ color: #f45d96;
     margin-left: 145px;
     font-size: 13px;
     margin-top: 25PX;
-
   }
   .header-menu6{
     margin-left: 174px;
@@ -1324,7 +1331,7 @@ color: #f45d96;
   margin-bottom: 39px;
   font-size: 16px;
 }
-.copy-right-div{
+.copy-right-div p {
   /* position: absolute; */
   /* margin-top: 999%; */
   /* top: 517vh;
@@ -1335,9 +1342,10 @@ color: #f45d96;
         font-size: 14px;
 
 }
-.copy-right span{
-  margin-left: 40px;
-  margin-top: -35px;
+.copy-right-div .myname{
+  margin-left: 233px;
+  margin-top: -287px;
+  font-size: 14px;
 }
 .button1{
   opacity: 0;
