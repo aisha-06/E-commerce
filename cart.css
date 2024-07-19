@@ -1310,7 +1310,7 @@ color: #f45d96;
   font-size: 18px;
 }
 .flex-container{
- margin-bottom: 330px; 
+ margin-bottom: 315px; 
 }
 .flex-item4 h4{
   margin-left: 20px;
@@ -1398,7 +1398,12 @@ color: #f45d96;
 .image3 button:hover{
   opacity: 1;
 }
-
+.drop-btn-item{
+  margin-top: -54px;
+  position: absolute;
+  background-color: black;
+  margin-left: 216px;
+}
 }
 @media only screen and (max-width: 430px)   {
 
@@ -1453,7 +1458,6 @@ color: #f45d96;
    margin-top: -767px;
   }
  
-   
   
 }
 
