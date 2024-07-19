@@ -1317,7 +1317,7 @@ color: #f45d96;
   font-size: 18px;
 }
 .flex-container{
- margin-bottom: 315px; 
+ margin-bottom: 65px; 
 }
 .flex-item4 h4{
   margin-left: 20px;
@@ -1337,15 +1337,15 @@ color: #f45d96;
   /* top: 517vh;
   margin-top: 117%;
   font-size: 14px; */
-  margin-top: -68%;
+  margin-top: -19%;
         position: absolute;
-        font-size: 14px;
+        font-size: 17px;
 
 }
 .copy-right-div .myname{
-  margin-left: 250px;
-  font-size: 14px;
-  margin-top: -57%;
+  margin-left: 168px;
+  font-size: 17px;
+  margin-top: 1%;
 }
 .button1{
   opacity: 0;
