@@ -686,11 +686,11 @@ ul
 }
 .product-price,.product-price2 ,.product-price3 , .product-price4 ,.product-price5
 {
-    top:2760px;
+    top:2630px;
 }
  .product-price6 ,.product-price7, .product-price8 ,.product-price9 ,.product-price10 
  {
-    top: 3180px;
+    top: 3050px;
  }
 
 .product-price,.product-price6
@@ -774,7 +774,7 @@ ul
 {
     position: absolute;
     left: 69px;
-    top: 5370px;
+    top: 5190px;
     width: 180px;
     height: 60px;
     background-color: white;
@@ -797,7 +797,7 @@ ul
 {
     position: absolute;
     left: 374px;
-    top: 5370px;
+    top: 5190px;
     width: 180px;
     height: 60px;
     background-color: white;
@@ -818,7 +818,7 @@ ul
     position: absolute;
 
     left: 673px;
-    top: 5370px;
+    top: 5190px;
     width: 180px;
     height: 60px;
     background-color: white;
@@ -839,7 +839,7 @@ ul
     position: absolute;
 
     left: 970px;
-    top: 5370px;
+    top: 5190px;
     width: 180px;
     height: 50px;
     background-color: white;
@@ -860,7 +860,7 @@ ul
     position: absolute;
 
     left: 1270px;
-    top: 5370px;
+    top: 5190px;
     width: 180px;
     height: 50px;
     background-color: white;
