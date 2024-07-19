@@ -46,7 +46,7 @@ body{
     display: flex;
 }
 .icon-button{
-    gap: 100px;
+    gap: 90px;
     border: none;
     background-color: transparent;
 }
@@ -61,8 +61,12 @@ body{
     margin-top: 4px;
     margin-left: 29px;
 }
-.icon-button button:hover{
+#heart{
     color: black;
+    transition: color 0.3s ease;
+}
+#heart:hover{
+    color: red;
 }
 #likes{
     position: absolute;
@@ -203,7 +207,7 @@ h2 button{
 }
 .dropdown-menu{
     font-size: 19px !important;
-    margin-left: 1127px !important;
+    margin-left: 1141px !important;
     margin-top: -3px !important;
     width: 349px !important;
     height: 128px !important;
@@ -598,7 +602,8 @@ h2 button{
     }
     .hidden-btn button {
         font-size: 24px;
-        padding: 10px;
+        padding: 10px !important;
+        margin-bottom: 237px;
     }
     .cart-btn button {
         font-size: 24px;
@@ -762,6 +767,33 @@ h2 button{
         margin-top: 267px !important;
         margin-left: 440px;
         letter-spacing: 1px;
+    }
+    #text1{
+        font-size: 55px;
+    }
+    #text2{
+        font-size: 50px;
+    }
+    .hidden-btn {
+        gap: 40px;
+        top: 700px;
+        margin-left: 153px;
+    }
+    .hidden-btn button{
+        padding: 50px !important;
+        margin-bottom: 180px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 50% 50%;
+    }
+    .hover-btn{
+        font-size: 80px;
+    }
+    .loading-products{
+        font-size: 50px;
+        margin-left: 450px;
+        white-space: nowrap;
+        margin-top: 100px;
     }
     .product-info {
         grid-template-columns: auto auto;
