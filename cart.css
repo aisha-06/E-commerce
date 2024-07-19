@@ -813,7 +813,7 @@ font-family: "Libre Baskerville",serif;
     padding-top: 23px;
 }
 .copy-right-div .myname {
-  margin-left:65.3%;
+  margin-left:65%;
   position: absolute;
 }
 .copy-right-div i {
@@ -1369,9 +1369,9 @@ color: #f45d96;
 }
 .image1 button {
   opacity: 0;
-  margin-left: 41px;
+  margin-left: 46px;
   margin-top: -157px;
-  width: 94%;
+  width: 89%;
 }
 .image1 button:hover{
   opacity: 1;
@@ -1380,9 +1380,9 @@ color: #f45d96;
           opacity: 0;
           position: absolute;
           top: -99px;
-          width: 94%;
+          width: 89%;
           height: 80px;
-          margin-left: 40px;
+          margin-left: 46px;
 }
 .image2 i {
   font-size: 18px;
@@ -1411,6 +1411,15 @@ color: #f45d96;
   position: absolute;
   background-color: black;
   margin-left: 216px;
+}
+.image4 button {
+  /* width: 217px; */
+  width: 56%;
+  margin-left: -233px;
+}
+.image5 button{
+  width: 56%;
+  margin-left: -231px;
 }
 }
 @media only screen and (max-width: 430px)   {
