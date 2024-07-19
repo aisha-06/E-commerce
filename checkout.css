@@ -205,7 +205,21 @@ p{
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.footer__top__text p {}
+.footer__top__text p {
+    margin-bottom: 0px;
+}
+img{
+    max-width: 174px;
+    margin-top: 32px;
+}
+p {
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    color:#444444;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 27px;
+}
 .set-bg{
     background-repeat: no-repeat;
     background-size: cover;
