@@ -742,7 +742,7 @@ h2 button{
     }
     .header-background {
         height: 531px;
-        width: 1644px;
+        width: 1749px;
         max-width: 407%;
         background-size: cover;
     }
@@ -797,7 +797,7 @@ h2 button{
     }
     .product-info {
         grid-template-columns: auto auto;
-        margin-left: 566px;
+        margin-left: 542px;
         margin-right: 0;
         gap: 30px;
     }
@@ -832,18 +832,23 @@ h2 button{
         margin-top: 100px;
     }
     .insta-promo-img img {
-        margin-left: 450px;
-        height: 1210px;
+        margin-left: 159px;
+        height: 1123px;
         width: auto;
     }
     .footer-clone {
         flex-direction: column;
         align-items: center;
-        margin-left: 0;
         padding: 30px;
+        margin-top: 100px;
+        margin-left: 649px;
+    }
+    .clone1 img{
+        height: 120px;
     }
     .clone-text {
-        font-size: 20px;
+        white-space: nowrap;
+        font-size: 60px;
         text-align: center;
         margin-left: 0;
     }
@@ -856,6 +861,23 @@ h2 button{
         flex-direction: column;
         align-items: center;
     }
+    #navbar2{
+        color: black;
+        font-family: "Quicksand", sans-serif;
+        font-size: 21px;
+        margin-top: 20px !important;
+        margin-left: 359px !important;
+        display: block;
+        visibility: visible;
+        position: relative;
+        z-index: 1000;
+    }
+    #nav-link-text{
+        position: absolute;
+        margin-top: 5px;
+        font-size: 19px;
+    }
+
     .account {
         margin-left: 0;
         margin-right: 0;
