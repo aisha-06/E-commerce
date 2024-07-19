@@ -180,3 +180,48 @@ p{
     width: 563px;
     height: 622px;
 }
+.element.style{
+    background-image: url(checkout.img/insta-1.jpg.webp);
+    background-image: url(checkout.img/insta-2.jpg.webp);
+    background-image: url(checkout.img/insta-3.jpg.webp);
+    background-image: url(checkout.img/insta-4.jpg.webp);
+    background-image: url(checkout.img/insta-5.jpg.webp);
+}
+.instagram__post{
+    margin-left: -304px;;
+    margin-right:-317px;
+    margin-top: 74px;
+
+}
+.instagram__post__item{
+    height: 372px;
+    display: flex;
+    webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: calc(20% - 10px);
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.footer__top__text p {}
+
+
+
+
+.set-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    box-sizing: border-box;
+}
+.footer__copyright p i {
+    color: #f45d96;
+}
+.fa{
+    isplay: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
