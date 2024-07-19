@@ -902,7 +902,7 @@ color: #f45d96;
   .images{
     margin-top: -30px;
     width: 100%;
-    /* position: absolute; */
+   
   }
   .nav-menu{
     margin-top: -72px;
@@ -979,7 +979,7 @@ color: #f45d96;
     font-size: 16px;
     position: absolute;
     display: contents;
-    /* gap:20px */
+ 
     
   } 
   .line {
@@ -1171,9 +1171,7 @@ color: #f45d96;
   margin-top: 218px
 }
 .search{
-  /* margin-left: -336px;
-  margin-top: -10px;
-  width: 9px; */
+
   width: 9px;
 }
 .bag{
@@ -1273,9 +1271,6 @@ color: #f45d96;
   margin-top: 219px;
 }
 .flex-item1 h4 {
-  /* top: 459%; */
-  /* position: absolute; */
-  /* margin-left: -156px; */
   margin-top: 510px;
   margin-left: -71px;
 }
@@ -1284,10 +1279,7 @@ color: #f45d96;
   margin-top: -3px;
 }
 .flex-item2  {
-  /* position: absolute;
-  margin-left: -177px;
-  top: 459%;
-  margin-bottom: 22px; */
+
   margin-top: 510px;
         margin-left: 219px;
         position: absolute;
@@ -1332,11 +1324,6 @@ color: #f45d96;
   font-size: 16px;
 }
 .copy-right-div p {
-  /* position: absolute; */
-  /* margin-top: 999%; */
-  /* top: 517vh;
-  margin-top: 117%;
-  font-size: 14px; */
   margin-top: -19%;
         position: absolute;
         font-size: 17px;
