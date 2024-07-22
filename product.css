@@ -697,7 +697,7 @@ h2 button{
     }
     .navbar-right {
         margin-right: 0;
-        gap: 10px;
+        gap: 0px;
     }
     .nav-button {
         font-size: 48px;
