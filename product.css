@@ -776,11 +776,11 @@ h2 button{
     }
     .hidden-btn {
         gap: 40px;
-        top: 700px;
+        top: 704px;
         margin-left: 153px;
     }
     .hidden-btn button{
-        padding: 50px !important;
+        padding: 40px !important;
         margin-bottom: 180px;
         border: 1px solid white;
         background-color: white;
@@ -791,7 +791,7 @@ h2 button{
     }
     .loading-products{
         font-size: 50px;
-        margin-left: 450px;
+        margin-left: 401px;
         white-space: nowrap;
         margin-top: 100px;
     }
@@ -810,10 +810,10 @@ h2 button{
         padding: 5px;
     }
     .cart-btn button {
-        font-size: 20px;
+        font-size: 50px;
         padding: 3px;
         margin-top: 10px;
-        margin-left: 5px;
+        margin-left: 104px;
     }
     #tag{
         margin-top: -870px;
@@ -836,30 +836,62 @@ h2 button{
         height: 1123px;
         width: auto;
     }
+    .insta-hidden-btn button{
+        margin-left: 383px;
+        margin-top: -424px;
+        font-size: 60px;
+        padding: 40px 73px;
+    }
+    .insta{
+        font-size: 100px !important;
+    }
     .footer-clone {
         flex-direction: column;
         align-items: center;
         padding: 30px;
         margin-top: 100px;
-        margin-left: 649px;
+        margin-left: 686px;
     }
     .clone1 img{
-        height: 120px;
+        height: 110px;
     }
     .clone-text {
-        white-space: nowrap;
         font-size: 60px;
+        margin-top: 50px;
         text-align: center;
-        margin-left: 0;
+        width: 1039px;
+    }
+    .header2-clone{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 75px;
+    }
+    .header2-clone button{
+        font-size: 50px;
     }
     .shop-info {
         grid-template-columns: auto;
-        margin-left: 0;
+        margin-left: 159px;
         margin-right: 0;
+        margin-top: 118px;
+    }
+    .head-info-foot{
+        font-size: 80px;
     }
     .about-company {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        font-size: 40px;
+        border: 1px solid #3c3c3c8a;
+        padding: 24px 64px;
+    }
+    .newletter{
+        border: 1px solid #3c3c3c8a;
+        padding: 24px 64px;
+    }
+    .subscription{
+        font-size: 50px;
     }
     #navbar2{
         color: black;
@@ -877,15 +909,14 @@ h2 button{
         margin-top: 5px;
         font-size: 19px;
     }
-
     .account {
-        margin-left: 0;
+        margin-left: 150px;
         margin-right: 0;
         margin-bottom: 30px;
-        text-align: center;
+        text-align: left;
     }
     .footer-btn {
-        font-size: 20px;
+        font-size: 50px;
     }
     .footer-align {
         margin-left: 0;
@@ -893,22 +924,32 @@ h2 button{
         text-align: center;
     }
     .subscribe-container {
-        width: 100%;
+        width: 96%;
+        margin-top: 75px;
     }
     .subscribe-input {
-        font-size: 20px;
-        padding: 10px 0;
+        font-size: 60px;
+        padding: 19px 0;
     }
     .subscribe-input::placeholder {
-        font-size: 20px;
+        font-size: 60px;
     }
     .subscribe-button {
-        font-size: 20px;
+        font-size: 45px;
     }
     .address {
-        font-size: 20px;
+        font-size: 44px;
+        line-height: 2;
+    }
+    .get-in-touch{
+        border: 1px solid #3c3c3c8a;
+        padding: 24px 64px;
     }
     .copyright {
-        font-size: 20px;
+        font-size: 50px;
+        text-align: center;
+        width: 954px;
+        margin-left: 223px;
+        margin-top: 90px;
     }
 }
