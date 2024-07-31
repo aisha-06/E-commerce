@@ -1,13 +1,13 @@
-.body{
+/* Default styles for larger screens */
+body {
     font-family: "Libre Baskerville", serif;
 }
-.navbar
-{
+.navbar {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(12, auto);
     gap: 17px;
     list-style: none;
-    margin-top: -34PX ;
+    margin-top: -34px;
     margin-left: 316px;
     font-size: 16px;
     font-family: "Oswald", sans-serif;
@@ -15,67 +15,50 @@
     text-transform: uppercase;
     color: black;
 }
-
-.header-right-choices
-{
+.header-right-choices {
     display: flex;
-    
 }
-.dropdown-btn
-{
-    visibility: hidden ;
-    cursor:pointer;
+.dropdown-btn {
+    visibility: hidden;
+    cursor: pointer;
     background-color: black;
     width: 60px;
-    height: 60px; 
+    height: 60px;
 }
-.header-menu
-{
- border: none;
- background-color: white;
-
+.header-menu {
+    border: none;
+    background-color: white;
 }
-.header-menu:hover
-{
+.header-menu:hover {
     color: palevioletred;
 }
-.logo-img
-{
+.logo-img {
     width: 140px;
 }
-
-.drop-btn-item 
-{
-  
-  color: white;
-  text-decoration: none;
-  font-family: "Oswald", sans-serif;
+.drop-btn-item {
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
     font-size: 15px;
     font-weight: 100;
 }
-
-.dropdown-ul:hover .dropdown-btn
-{
-  visibility: visible ;
-  cursor: pointer;
+.dropdown-ul:hover .dropdown-btn {
+    visibility: visible;
+    cursor: pointer;
 }
-
-.element.style{
-    background-image: url(
-        checkout.img/breadcrumb-bg.jpg.webp
-    );
+.element.style {
+    background-image: url(checkout.img/breadcrumb-bg.jpg.webp);
 }
-.breadcrumb-option{
+.breadcrumb-option {
     padding: 52px 0 60px;
 }
-.breadcrumb__links span { 
-    font-size: 16px ;
+.breadcrumb__links span {
+    font-size: 16px;
     color: #99898d;
     text-transform: uppercase;
     display: inline-block;
-
 }
-.set-bg{
+.set-bg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -85,45 +68,45 @@
     font-size: 20px;
     color: black;
 }
-h2{
-    font-family: "Cormorant Garamond", serif;;
+h2 {
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
     font-size: 52px;
 }
-h4{
+h4 {
     font-family: "Libre Baskerville", serif;
     font-size: 28px;
     font-weight: 500;
     margin-top: 61px;
     margin-right: 999px;
 }
-h6{
+h6 {
     font-size: 17px;
     font-family: "Libre Baskerville", serif;
-    font-weight:500;
+    font-weight: 500;
     margin-left: 707px;
     margin-top: -34px;
 }
-a{
+a {
     color: #f68b99;
 }
-.checkout__form form .input__top{
+.checkout__form form .input__top {
     height: 46px;
     width: 100px;
     padding-left: 20px;
     font-size: 16px;
     color: #99898d;
-    border: 1 px solid white;
+    border: 1px solid white;
     margin-bottom: 15px;
     color: #b4b6b5;
 }
-.checkout__form form label{
+.checkout__form form label {
     position: relative;
     font-size: 16px;
     color: black;
     cursor: pointer;
     padding-left: 30px;
-    margin-bottom: 01;
+    margin-bottom: 1px;
     margin-right: 28px;
 }
 label {
@@ -133,17 +116,16 @@ label {
     margin-top: 16px;
     color: #b4b6b5;
 }
-.checkout address h4{
-    font-family:  "Libre Baskerville", serif;
+.checkout address h4 {
+    font-family: "Libre Baskerville", serif;
     font-size: 26px;
     color: black;
-    margin-top: 61;
+    margin-top: 61px;
     margin-bottom: 24px;
 }
-
-p{
+p {
     font-size: 16px;
-    font-family:"Libre Baskerville", serif;
+    font-family: "Libre Baskerville", serif;
     color: black;
     font-weight: 400;
     margin-top: 12px;
@@ -152,20 +134,19 @@ p{
     color: #888888;
     padding-left: 20px;
 }
-.checkout__address .input__item p{
+.checkout__address .input__item p {
     color: black;
 }
-.checkout__proceed{
-    padding : 30px;
+.checkout__proceed {
+    padding: 30px;
     color: grey;
-
 }
 .checkout__proceed .checkout__proceed__title h4 {
     color: #111111;
-    margin-bottom: 38PX;
+    margin-bottom: 38px;
     display: inline-block;
     background-color: #f7f5fa;
-    padding: 0 15px 0 0;;
+    padding: 0 15px 0 0;
     position: relative;
 }
 .checkout__proceed {
@@ -180,47 +161,47 @@ p{
     width: 563px;
     height: 622px;
 }
-.element.style{
+.element.style {
     background-image: url(checkout.img/insta-1.jpg.webp);
     background-image: url(checkout.img/insta-2.jpg.webp);
     background-image: url(checkout.img/insta-3.jpg.webp);
     background-image: url(checkout.img/insta-4.jpg.webp);
     background-image: url(checkout.img/insta-5.jpg.webp);
 }
-.instagram__post{
-    margin-left: -304px;;
-    margin-right:-317px;
+.instagram__post {
+    margin-left: -304px;
+    margin-right: -317px;
     margin-top: 74px;
-
 }
-.instagram__post__item{
+.instagram__post__item {
     height: 372px;
     display: flex;
-    webkit-box-align: center;
+    -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
     width: calc(20% - 10px);
-    float:left;
+    float: left;
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
 .footer__top__text p {
     margin-bottom: 0px;
 }
-img{
+img {
     max-width: 174px;
     margin-top: 32px;
 }
 p {
     font-size: 16px;
     font-family: "Quicksand", sans-serif;
-    color:#444444;
+    color: #444444;
     font-weight: 400;
     line-height: 27px;
     margin-top: 27px;
 }
-.set-bg{
+.set-bg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -229,9 +210,140 @@ p {
 .footer__copyright p i {
     color: #f45d96;
 }
-.fa{
-    isplay: inline-block;
+.fa {
+    display: inline-block;
     font: normal normal normal 14px / 1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
 }
+footer__widget.footer__widget--address {
+    padding-left: 60px;
+    font-size: 16px;
+    
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .navbar {
+        grid-template-columns: repeat(10, auto);
+        margin-left: 50px;
+        gap: 10px;
+    }
+    .dropdown-btn {
+        width: 50px;
+        height: 50px;
+    }
+    .checkout__proceed {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        grid-template-columns: repeat(8, auto);
+        margin-left: 20px;
+        gap: 8px;
+    }
+    .dropdown-btn {
+        width: 45px;
+        height: 45px;
+    }
+    .instagram__post__item {
+        width: calc(25% - 10px);
+    }
+    .checkout__proceed {
+        width: 100%;
+        padding: 15px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        grid-template-columns: repeat(6, auto);
+        margin-left: 10px;
+        gap: 5px;
+    }
+    .dropdown-btn {
+        width: 40px;
+        height: 40px;
+    }
+    .instagram__post__item {
+        width: calc(33.33% - 10px);
+        height: auto;
+    }
+    .checkout__proceed {
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        grid-template-columns: repeat(4, auto);
+        margin-left: 5px;
+        gap: 3px;
+        font-size: 14px;
+    }
+    .dropdown-btn {
+        width: 35px;
+        height: 35px;
+    }
+    .instagram__post__item {
+        width: calc(50% - 10px);
+        height: auto;
+    }
+    .checkout__proceed {
+        padding: 5px;
+        margin: 2px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        gap: 2px;
+        font-size: 12px;
+    }
+    .dropdown-btn {
+        width: 30px;
+        height: 30px;
+    }
+    .instagram__post__item {
+        width: 100%;
+        height: 150px;
+    }
+    .checkout__proceed {
+        padding: 2px;
+        margin: 1px;
+    }
+}
+
+/* For Small Devices */
+@media (max-width: 320px) {
+    .navbar {
+        grid-template-columns: 1fr;
+        font-size: 10px;
+    }
+    .dropdown-btn {
+        width: 25px;
+        height: 25px;
+    }
+    .instagram__post__item {
+        width: 100%;
+        height: 120px;
+    }
+    .checkout__proceed {
+        padding: 5px;
+        margin: 1px;
+    }
+    .checkout__proceed__title h4 {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
