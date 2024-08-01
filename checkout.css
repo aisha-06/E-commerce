@@ -1,6 +1,7 @@
 /* Default styles for larger screens */
 body {
     font-family: "Libre Baskerville", serif;
+    overflow-x: hidden;
 }
 .navbar {
     display: grid;
@@ -24,6 +25,48 @@ body {
     background-color: black;
     width: 60px;
     height: 60px;
+}
+.insta-promo-img{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 293px;
+    margin-left: -287px;
+    margin-right: -4px;
+}
+.insta-promo-img img{
+    height: 96%;
+    width: 441px;
+    max-width: 430%;
+}
+.insta-img-container {
+    position: relative;
+    display: inline-block;
+}
+.insta-hidden-btn {
+    position: absolute;
+    visibility: hidden;
+    text-align: center;
+    margin-top: -281px;
+}
+.insta-hidden-btn button {
+    position: absolute;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 19px;
+    white-space: nowrap;
+    background-color: white;
+    border: 1px solid white;
+    padding: 0px 55px;
+    align-items: center;
+    margin-left: 49px;
+    margin-top: 14px;
+}
+.insta-img-container:hover .insta-hidden-btn {
+    visibility: visible;
+}
+.insta{
+    color: #f45d96;
+
 }
 .header-menu {
     border: none;
