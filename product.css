@@ -740,6 +740,19 @@ h2 button{
         font-size: 40px;
         margin-top: -9px;
     }
+    .dropdown1-content .drop-btn-item {
+        font-size: 47px;
+        text-align: left;
+        border: 1px solid #111111;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .dropdown1-content{
+        margin-top: -165px;
+        margin-left: 25px;
+        padding: 20px 23px;
+    }
     .header-background {
         height: 531px;
         width: 1749px;
