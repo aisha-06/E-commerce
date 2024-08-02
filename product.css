@@ -702,7 +702,7 @@ h2 button{
     .nav-button {
         font-size: 48px;
         margin-bottom: 172px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .icon {
         font-size: 65px;
@@ -710,33 +710,33 @@ h2 button{
         margin-top: 40px;
     }
     #magnify{
-        margin-left: -2420px;
+        margin-left: -1902px;
     }
     #heart{
-        margin-left: -1130px;
+        margin-left: -870px;
         margin-top: 3px;
         margin-top: 40px;
     }
     #likes{
-        margin-left: -1040px;
+        margin-left: -791px;
         font-size: 40px;
-        margin-top: 40px;
+        margin-top: 42px;
     }
     .icon-button {
         gap: 30px;
     }
     .bag-image{
-        margin-left: -950px;
+        margin-left: -688px;
         height: 60px;
         margin-top: -10px;
     }
     #bag-text{
-        margin-left: -870px;
+        margin-left: -615px;
         font-size: 40px;
         margin-top: -10px;
     }
     #cart-cost{
-        margin-left: -783px;
+        margin-left: -520px;
         font-size: 40px;
         margin-top: -9px;
     }
@@ -948,7 +948,7 @@ h2 button{
     .copyright {
         font-size: 50px;
         text-align: center;
-        width: 954px;
+        width: 960px;
         margin-left: 223px;
         margin-top: 90px;
     }
