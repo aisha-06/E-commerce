@@ -667,8 +667,10 @@ font-family: "Libre Baskerville",serif;
     padding-top: 23px;
 }
 .copy-right-div .myname {
-  margin-left:65%;
+  margin-left:65.5%;
   position: absolute;
+  letter-spacing: 2px;
+  
 }
 .copy-right-div i {
     color: #f45d96;
@@ -677,7 +679,7 @@ font-family: "Libre Baskerville",serif;
   .myname{
   color: #f45d96;
    position: absolute; 
-   margin-left: 300px; 
+   margin-left: 360px; 
    margin-top: -40px;
   }
   
